@@ -1,0 +1,31 @@
+[
+	{
+		"name": "Outrageous",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Normal Exit",
+				"chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+				"chest_opened_img": "images/checks/goal_sphere.png",
+				"access_rules": ["powerup_1"],
+				"item_count": 1
+			},
+			{
+				"name": "Dragon Coins",
+				"chest_unopened_img": "images/checks/dragon_coin_disabled.png",
+				"chest_opened_img": "images/checks/dragon_coin.png",
+				"visibility_rules": [ "dragon_coin_checks" ],
+				"access_rules": [ "powerup_1" ],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "Special Zone",
+				"x": 104,
+				"y": 112
+			}
+		]
+	}
+]

@@ -1,0 +1,44 @@
+﻿[
+    {
+        "name": "Overworld",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/overworld.png"
+    },
+    {
+        "name": "Yoshi's Island",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/yoshis_island.png"
+    },
+    {
+        "name": "Vanilla Dome",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/vanilla_dome.png"
+    },
+    {
+        "name": "Forest of Illusion",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/forest_of_illusion.png"
+    },
+    {
+        "name": "Valley of Bowser",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/valley_of_bowser.png"
+    },
+    {
+        "name": "Star World",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/star_world.png"
+    },
+    {
+        "name": "Special Zone",
+        "location_size": 10,
+        "location_border_thickness": 2,
+        "img": "images/maps/special_zone.png"
+    }
+]

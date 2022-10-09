@@ -1,0 +1,128 @@
+[
+    {
+        "name": "Boss Tokens",
+        "type": "consumable",
+        "img": "images/items/larry.png",
+        "codes": "boss_tokens",
+        "max_quantity": 11,
+        "overlay_font_size": 14
+    },
+    {
+        "name": "Yoshi Eggs",
+        "type": "consumable",
+        "img": "images/items/yoshi_egg.png",
+        "codes": "yoshi_eggs",
+        "max_quantity": 80,
+        "overlay_font_size": 14
+    },
+    {
+        "name": "Progressive Powerup",
+        "type": "progressive",
+        "codes": "progressive_powerup",
+        "stages": [
+            {
+                "img": "images/items/big_mario.png",
+                "disabled_img": "images/items/small_mario.png",
+                "disabled_img_mods": "none",
+                "codes": "powerup_1",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/fire_mario.png",
+                "codes": "powerup_2",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/cape_mario.png",
+                "codes": "powerup_3",
+                "inherit_codes": true
+            }
+        ]
+    },
+    {
+        "name": "Carry",
+        "type": "toggle",
+        "img": "images/items/carry.png",
+        "codes": "carry"
+    },
+    {
+        "name": "Climb",
+        "type": "toggle",
+        "img": "images/items/climb.png",
+        "codes": "climb"
+    },
+    {
+        "name": "P-Balloon",
+        "type": "toggle",
+        "img": "images/items/p_balloon.png",
+        "codes": "p_balloon"
+    },
+    {
+        "name": "P-Switch",
+        "type": "toggle",
+        "img": "images/items/p_switch.png",
+        "codes": "p_switch"
+    },
+    {
+        "name": "Run",
+        "type": "toggle",
+        "img": "images/items/run.png",
+        "codes": "run"
+    },
+    {
+        "name": "Spin Jump",
+        "type": "toggle",
+        "img": "images/items/spin_jump.png",
+        "codes": "spin_jump"
+    },
+    {
+        "name": "Super Star",
+        "type": "toggle",
+        "img": "images/items/star.png",
+        "codes": "star"
+    },
+    {
+        "name": "Swim",
+        "type": "toggle",
+        "img": "images/items/swim.png",
+        "codes": "swim"
+    },
+    {
+        "name": "Yoshi",
+        "type": "toggle",
+        "img": "images/items/yoshi.png",
+        "codes": "yoshi"
+    },
+    {
+        "name": "Yellow Switch Palace",
+        "type": "toggle",
+        "img": "images/items/ysp_pressed.png",
+        "disabled_img": "images/items/ysp_full.png",
+        "disabled_img_mods": "none",
+        "codes": "ysp"
+    },
+    {
+        "name": "Green Switch Palace",
+        "type": "toggle",
+        "img": "images/items/gsp_pressed.png",
+        "disabled_img": "images/items/gsp_full.png",
+        "disabled_img_mods": "none",
+        "codes": "gsp"
+    },
+    {
+        "name": "Red Switch Palace",
+        "type": "toggle",
+        "img": "images/items/rsp_pressed.png",
+        "disabled_img": "images/items/rsp_full.png",
+        "disabled_img_mods": "none",
+        "codes": "rsp"
+    },
+    {
+        "name": "Blue Switch Palace",
+        "type": "toggle",
+        "img": "images/items/bsp_pressed.png",
+        "disabled_img": "images/items/bsp_full.png",
+        "disabled_img_mods": "none",
+        "codes": "bsp"
+    }
+]

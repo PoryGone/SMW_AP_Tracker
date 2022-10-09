@@ -1,0 +1,23 @@
+[
+	{
+		"name": "Valley Fortress",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Normal Exit",
+				"chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+				"chest_opened_img": "images/checks/goal_sphere.png",
+				"access_rules": ["powerup_1"],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "Valley of Bowser",
+				"x": 152,
+				"y": 90
+			}
+		]
+	}
+]

@@ -1,0 +1,121 @@
+{
+    "tracker_default": {
+        "type": "container",
+        "background": "#877373",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "bottom",
+                    "v_alignment": "stretch",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "tracker_items"
+                            },
+                            "header_content": {
+                                "type": "button_popup",
+                                "style": "settings",
+                                "popup_background": "#55212121",
+                                "layout": "settings_popup"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Pinned Locations",
+                            "content": {
+                                "type": "recentpins",
+                                "style": "wrap",
+                                "h_alignment": "stretch",
+                                "v_alignment": "stretch",
+                                "orientation": "horizontal",
+                                "compact": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Overworld",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Overworld"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Yoshi's Island",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Yoshi's Island"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Vanilla Dome",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Vanilla Dome"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Forest of Illusion",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Forest of Illusion"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Valley of Bowser",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Valley of Bowser"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Star World",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Star World"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Special Zone",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "Special Zone"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "tracker_broadcast": {
+        "type": "container",
+        "content": {
+            "type": "layout",
+            "key": "tracker_items"
+        }
+    }
+}

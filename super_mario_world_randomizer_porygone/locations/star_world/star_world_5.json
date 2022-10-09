@@ -1,0 +1,30 @@
+[
+	{
+		"name": "Star World 5",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Normal Exit",
+				"chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+				"chest_opened_img": "images/checks/goal_sphere.png",
+				"access_rules": ["run, p_switch"],
+				"item_count": 1
+			},
+			{
+				"name": "Secret Exit",
+				"chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+				"chest_opened_img": "images/checks/goal_sphere.png",
+				"access_rules": [ "carry, climb, run, p_switch, ysp, gsp, rsp, bsp" ],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "Star World",
+				"x": 120,
+				"y": 105
+			}
+		]
+	}
+]

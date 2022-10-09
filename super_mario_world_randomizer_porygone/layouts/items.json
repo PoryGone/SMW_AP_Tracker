@@ -1,0 +1,46 @@
+{
+    "tracker_items": {
+        "type": "array",
+        "orientation": "horizontal",
+        "content": [
+            {
+                "type": "itemgrid",
+                "h_alignment": "left",
+                "item_margin": "4,4",
+                "item_size": "4",
+                "rows": [
+                    [
+                        "progressive_powerup",
+                        "star",
+                        "boss_tokens",
+                        "yoshi_eggs"
+                    ],
+                    [
+                        "carry",
+                        "climb",
+                        "p_switch",
+                        "p_balloon"
+                    ],
+                    [
+                        "run",
+                        "swim",
+                        "spin_jump",
+                        "yoshi"
+                    ],
+                    [
+                        "ysp",
+                        "gsp",
+                        "rsp",
+                        "bsp"
+                    ],
+                    [
+                        "goal",
+                        "dragon_coin_checks",
+                        "bosses_required",
+                        "yoshi_eggs_required"
+                    ]
+                ]
+            }
+        ]
+    }
+}

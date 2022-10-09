@@ -1,0 +1,23 @@
+[
+	{
+		"name": "#3 Lemmy's Castle",
+		"access_rules": [],
+		"visibility_rules": [],
+		"sections": [
+			{
+				"name": "Normal Exit",
+				"chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+				"chest_opened_img": "images/checks/goal_sphere.png",
+				"access_rules": [],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "Vanilla Dome",
+				"x": 200,
+				"y": 132
+			}
+		]
+	}
+]
