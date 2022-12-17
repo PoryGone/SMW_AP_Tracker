@@ -8,7 +8,7 @@
 				"name": "Normal Exit",
 				"chest_unopened_img": "images/checks/goal_sphere_disabled.png",
 				"chest_opened_img": "images/checks/goal_sphere.png",
-				"access_rules": [],
+				"access_rules": ["run, climb"],
 				"item_count": 1
 			}
 		],

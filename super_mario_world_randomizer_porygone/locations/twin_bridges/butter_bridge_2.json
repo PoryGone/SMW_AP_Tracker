@@ -16,7 +16,7 @@
 				"chest_unopened_img": "images/checks/dragon_coin_disabled.png",
 				"chest_opened_img": "images/checks/dragon_coin.png",
 				"visibility_rules": [ "dragon_coin_checks" ],
-				"access_rules": ["yoshi", "powerup_3"],
+				"access_rules": ["run, powerup_3"],
 				"item_count": 1
 			}
 		],
