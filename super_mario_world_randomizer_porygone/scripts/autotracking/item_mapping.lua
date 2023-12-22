@@ -15,6 +15,7 @@ ITEM_MAPPING = {
     [0xBC0010] = {"rsp", "toggle"},
     [0xBC0011] = {"bsp", "toggle"},
     [0xBC0012] = {"boss_tokens", "consumable"},
+    [0xBC001B] = {"special", "toggle"},
 }
 
 SETTINGS_MAPPING = {
@@ -22,4 +23,8 @@ SETTINGS_MAPPING = {
     [0xBC0F01] = {"dragon_coin_checks", "toggle"},
     [0xBC0F02] = {"bosses_required", "consumable"},
     [0xBC0F03] = {"yoshi_eggs_required", "consumable"},
+    [0xBC0F04] = {"moon_checks", "toggle"},
+    [0xBC0F05] = {"hidden_1up_checks", "toggle"},
+    [0xBC0F06] = {"bonus_block_checks", "toggle"},
+    [0xBC0F07] = {"blocksanity", "toggle"},
 }

@@ -1,0 +1,205 @@
+[
+    {
+        "name": "Yoshi's Island 4",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Yoshi's Island 4 - Goal",
+                "map_locations": [
+                    {
+                        "map": "yi4_sub_2",
+                        "x": 232,
+                        "y": 376
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "dragon_coin_checks"
+                        ],
+                        "name": "Dragon Coins",
+                        "access_rules": [
+                            "yoshi",
+                            "swim",
+                            "carry, p_switch"
+                        ],
+                        "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
+                        "chest_opened_img": "images/checks/dragon_coin.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "name": "Yoshi's Island 4 - Dragon coin",
+                "map_locations": [
+                    {
+                        "map": "yi4_main",
+                        "x": 280,
+                        "y": 352
+                    },
+                    {
+                        "map": "yi4_main",
+                        "x": 456,
+                        "y": 272
+                    },
+                    {
+                        "map": "yi4_main",
+                        "x": 1080,
+                        "y": 288
+                    },
+                    {
+                        "map": "yi4_main",
+                        "x": 1416,
+                        "y": 304
+                    },
+                    {
+                        "map": "yi4_main",
+                        "x": 840,
+                        "y": 736
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "hidden_1up_checks"
+                        ],
+                        "name": "Hidden 1-Up",
+                        "access_rules": [
+                            "yoshi",
+                            "powerup_3, run"
+                        ],
+                        "chest_unopened_img": "images/checks/hidden_disabled.png",
+                        "chest_opened_img": "images/checks/hidden.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Yoshi's Island 4 - Hidden 1-Up",
+                "map_locations": [
+                    {
+                        "map": "yi4_main",
+                        "x": 152,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Yoshi's Island 4 - Blocksanity - Yellow Switch Palace Block #1",
+                "sections": [
+                    {
+                        "name": "Yellow Switch Palace Block #1",
+                        "access_rules": [
+                            "ysp"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "yi4_main",
+                        "x": 216,
+                        "y": 248
+                    }
+                ]
+            },
+            {
+                "name": "Yoshi's Island 4 - Blocksanity - Powerup Block #1",
+                "sections": [
+                    {
+                        "name": "Powerup Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "yi4_main",
+                        "x": 360,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "Yoshi's Island 4 - Blocksanity - Multi Coin Block #1",
+                "sections": [
+                    {
+                        "name": "Multi Coin Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "yi4_sub_1",
+                        "x": 664,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "Yoshi's Island 4 - Blocksanity - Star Block #1",
+                "sections": [
+                    {
+                        "name": "Star Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "yi4_main",
+                        "x": 1256,
+                        "y": 296
+                    }
+                ]
+            }
+        ]
+    }
+]

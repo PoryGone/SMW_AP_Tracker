@@ -1,0 +1,202 @@
+[
+    {
+        "name": "Outrageous",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            "powerup_1"
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Outrageous - Goal",
+                "map_locations": [
+                    {
+                        "map": "sw7_main",
+                        "x": 744,
+                        "y": 1240
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "dragon_coin_checks"
+                        ],
+                        "name": "Dragon Coins",
+                        "access_rules": [
+                            "powerup_1"
+                        ],
+                        "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
+                        "chest_opened_img": "images/checks/dragon_coin.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "name": "Outrageous - Dragon Coin",
+                "map_locations": [
+                    {
+                        "map": "sw7_main",
+                        "x": 648,
+                        "y": 336
+                    },
+                    {
+                        "map": "sw7_main",
+                        "x": 1320,
+                        "y": 352
+                    },
+                    {
+                        "map": "sw7_main",
+                        "x": 1704,
+                        "y": 368
+                    },
+                    {
+                        "map": "sw7_main",
+                        "x": 936,
+                        "y": 768
+                    },
+                    {
+                        "map": "sw7_main",
+                        "x": 472,
+                        "y": 1248
+                    }
+                ]
+            },
+            {
+                "name": "Outrageous - Blocksanity - Powerup Block #1",
+                "sections": [
+                    {
+                        "name": "Powerup Block #1",
+                        "access_rules": [
+                            "powerup_1"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sw7_main",
+                        "x": 856,
+                        "y": 344
+                    }
+                ]
+            },
+            {
+                "name": "Outrageous - Blocksanity - Yoshi Block #1",
+                "sections": [
+                    {
+                        "name": "Yoshi Block #1",
+                        "access_rules": [
+                            "powerup_1"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sw7_main",
+                        "x": 1160,
+                        "y": 760
+                    }
+                ]
+            },
+            {
+                "name": "Outrageous - Blocksanity - Coin Block #1",
+                "sections": [
+                    {
+                        "name": "Coin Block #1",
+                        "access_rules": [
+                            "powerup_1"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sw7_main",
+                        "x": 1944,
+                        "y": 760
+                    }
+                ]
+            },
+            {
+                "name": "Outrageous - Blocksanity - Powerup Block #2",
+                "sections": [
+                    {
+                        "name": "Powerup Block #2",
+                        "access_rules": [
+                            "powerup_1"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sw7_main",
+                        "x": 1960,
+                        "y": 760
+                    }
+                ]
+            },
+            {
+                "name": "Outrageous - Blocksanity - Coin Block #2",
+                "sections": [
+                    {
+                        "name": "Coin Block #2",
+                        "access_rules": [
+                            "powerup_1"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sw7_main",
+                        "x": 1976,
+                        "y": 760
+                    }
+                ]
+            }
+        ]
+    }
+]

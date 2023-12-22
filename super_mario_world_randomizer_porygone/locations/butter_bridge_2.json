@@ -1,0 +1,154 @@
+[
+    {
+        "name": "Butter Bridge 2",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Butter Bridge 2 - Goal",
+                "map_locations": [
+                    {
+                        "map": "tb2_main",
+                        "x": 744,
+                        "y": 1240
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "dragon_coin_checks"
+                        ],
+                        "name": "Dragon Coins",
+                        "access_rules": [
+                            "powerup_3, run"
+                        ],
+                        "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
+                        "chest_opened_img": "images/checks/dragon_coin.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "name": "Butter Bridge 2 - Dragon Coin",
+                "map_locations": [
+                    {
+                        "map": "tb2_main",
+                        "x": 1000,
+                        "y": 96
+                    },
+                    {
+                        "map": "tb2_main",
+                        "x": 1304,
+                        "y": 272
+                    },
+                    {
+                        "map": "tb2_main",
+                        "x": 136,
+                        "y": 672
+                    },
+                    {
+                        "map": "tb2_sub_1",
+                        "x": 664,
+                        "y": 288
+                    },
+                    {
+                        "map": "tb2_main",
+                        "x": 408,
+                        "y": 1232
+                    }
+                ]
+            },
+            {
+                "name": "Butter Bridge 2 - Blocksanity - Powerup Block #1",
+                "sections": [
+                    {
+                        "name": "Powerup Block #1",
+                        "access_rules": [
+                            "carry"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb2_main",
+                        "x": 792,
+                        "y": 264
+                    }
+                ]
+            },
+            {
+                "name": "Butter Bridge 2 - Blocksanity - Green Switch Palace Block #1",
+                "sections": [
+                    {
+                        "name": "Green Switch Palace Block #1",
+                        "access_rules": [
+                            "gsp"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb2_main",
+                        "x": 712,
+                        "y": 728
+                    }
+                ]
+            },
+            {
+                "name": "Butter Bridge 2 - Blocksanity - Yoshi Block #1",
+                "sections": [
+                    {
+                        "name": "Yoshi Block #1",
+                        "access_rules": [
+                            "carry"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb2_main",
+                        "x": 1144,
+                        "y": 712
+                    }
+                ]
+            }
+        ]
+    }
+]

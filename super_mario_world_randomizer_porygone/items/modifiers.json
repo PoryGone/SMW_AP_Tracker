@@ -35,5 +35,33 @@
         "increment": 1,
         "overlay_font_size": 14,
         "codes": "yoshi_eggs_required"
+    },
+    {
+        "name": "3-Up Moon Checks",
+        "type": "toggle",
+        "img": "images/items/moon.png",
+        "disabled_img": "images/items/moon.png",
+        "codes": "moon_checks"
+    },
+    {
+        "name": "Hidden 1-Up Checks",
+        "type": "toggle",
+        "img": "images/items/1-Up.png",
+        "disabled_img": "images/items/1-Up.png",
+        "codes": "hidden_1up_checks"
+    },
+    {
+        "name": "Bonus Blocks Checks",
+        "type": "toggle",
+        "img": "images/items/bonus.png",
+        "disabled_img": "images/items/bonus.png",
+        "codes": "bonus_block_checks"
+    },
+    {
+        "name": "Blocksanity",
+        "type": "toggle",
+        "img": "images/items/block.png",
+        "disabled_img": "images/items/block.png",
+        "codes": "blocksanity"
     }
 ]

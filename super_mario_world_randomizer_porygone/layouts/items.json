@@ -6,38 +6,43 @@
             {
                 "type": "itemgrid",
                 "h_alignment": "left",
-                "item_margin": "4,4",
-                "item_size": "4",
+                "item_margin": "2,2",
+                "item_size": "40",
                 "rows": [
                     [
                         "progressive_powerup",
+                        "yoshi",
                         "star",
-                        "boss_tokens",
-                        "yoshi_eggs"
+                        "p_balloon",
+                        "p_switch"
                     ],
                     [
                         "carry",
                         "climb",
-                        "p_switch",
-                        "p_balloon"
-                    ],
-                    [
                         "run",
                         "swim",
-                        "spin_jump",
-                        "yoshi"
+                        "spin_jump"
                     ],
                     [
                         "ysp",
                         "gsp",
                         "rsp",
-                        "bsp"
+                        "bsp",
+                        "special"
                     ],
                     [
                         "goal",
-                        "dragon_coin_checks",
+                        "boss_tokens",
+                        "yoshi_eggs",
                         "bosses_required",
                         "yoshi_eggs_required"
+                    ],
+                    [
+                        "dragon_coin_checks",
+                        "moon_checks",
+                        "hidden_1up_checks",
+                        "bonus_block_checks",
+                        "blocksanity"
                     ]
                 ]
             }

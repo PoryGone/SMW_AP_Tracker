@@ -44,67 +44,2398 @@
                     "type": "tabbed",
                     "tabs": [
                         {
-                            "title": "Overworld",
+                            "title": "World Map",
                             "content": {
                                 "type": "map",
                                 "maps": [
-                                    "Overworld"
+                                    "map"
                                 ]
                             }
                         },
                         {
                             "title": "Yoshi's Island",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Yoshi's Island"
-                                ]
-                            }
+                            "content": [
+                                {
+                                    "type": "tabbed",
+                                    "tabs": [
+                                        {
+                                            "title": "Yoshi's Island 1",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "yi1_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Dragon coin room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "yi1_sub_1"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Yoshi's Island 2",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "yi2_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Flying block room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "yi2_sub_1"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Yoshi's Island 3",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "yi3_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Lava room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "yi3_sub_1"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Yoshi's Island 4",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "yi4_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Pokey room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "yi4_sub_1"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Goal room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "yi4_sub_2"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "#1 Iggy's Castle",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Net room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "yic_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Smashers room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "yic_sub_1"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Yellow Switch Palace",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Bonus room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ysp_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Button room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ysp_sub_1"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Donut Plains",
+                            "content": [
+                                {
+                                    "type": "tabbed",
+                                    "tabs": [
+                                        {
+                                            "title": "Donut Plains 1",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dp1_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Flying room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dp1_sub_1"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Bonus room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dp1_zbonus"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Donut Plains 2",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dp2_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Keyhole room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dp2_sub_1"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Goal room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dp2_sub_2"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Donut Plains 3",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dp3_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Bonus room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dp3_zbonus"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Donut Plains 4",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dp4_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Pipes room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dp4_sub_1"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Dragon coin room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dp4_sub_2"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "#2 Morton's Castle",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Stairs room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dpc_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Thwomp room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dpc_sub_1"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Moving stones room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dpc_sub_2_vert"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Bonus room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dpc_zbonus"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Donut Ghost House",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Ghost ceiling room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dpgh_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Stairs room #1",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dpgh_sub_1"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Stairs room #2",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dpgh_sub_2"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Directional coin room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dpgh_sub_3"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Secret goal room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dpgh_sub_4"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Normal goal room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dpgh_sub_5"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Donut Secret 1",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dps1_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "P-Balloon room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dps1_sub_1_vert"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Donut Secret 2",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dps2_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "P-Balloon room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dps2_sub_1"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Donut Secret House",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Big boo room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dpsh_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Puzzle room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dpsh_sub_1"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Goal room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dpsh_sub_2"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Directional coin room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dpsh_sub_3"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Green Switch Palace",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Bonus room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dpz_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Button room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "dpz_sub_1"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             "title": "Vanilla Dome",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Vanilla Dome"
-                                ]
-                            }
+                            "content": [
+                                {
+                                    "type": "tabbed",
+                                    "tabs": [
+                                        {
+                                            "title": "Vanilla Dome 1",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vd1_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Sinking rock room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vd1_sub_1"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Vanilla Dome 2",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vd2_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Ice cave room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vd2_sub_1"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Vanilla Dome 3",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vd3_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Ice cave room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vd3_sub_1"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Bonus room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vd3_zbonus"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Vanilla Dome 4",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vd4_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Lava room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vd4_sub_1"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "#3 Lemmy's Castle",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vdc_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Midway point room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vdc_sub_1"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Lava room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vdc_sub_2"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Vanilla Fortress",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Spikes room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vdf_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Thwomp room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vdf_sub_1"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Vanilla Ghost House",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vdgh_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Gas bubbles room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vdgh_sub_1"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Goal room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vdgh_sub_2"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Vanilla Secret 1",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vds1_main_vert"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Secret goal room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vds1_sub_1"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Normal goal room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vds1_sub_2"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Vanilla Secret 2",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vds2_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Lava room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vds2_sub_1"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Vanilla Secret 3",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vds3_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Goal room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vds3_sub_1"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Red Switch Palace",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Bonus room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vdz_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Button room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vdz_sub_1"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Twin Bridges",
+                            "content": [
+                                {
+                                    "type": "tabbed",
+                                    "tabs": [
+                                        {
+                                            "title": "Butter Bridge 1",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "tb1_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Goal room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "tb1_sub_1"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Butter Bridge 2",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "tb2_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Dragon coin room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "tb2_sub_1"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Cheese Bridge Area",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "tb3_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Yoshi wings room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "tb3_sub_1"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Moving platforms room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "tb3_sub_2"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Cookie Mountain",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "tb4_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "River room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "tb4_sub_1"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "#4 Ludwig's Castle",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Orange wall room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "tbc_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Falling ceiling room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "tbc_sub_1"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Net room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "tbc_sub_2_vert"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Bonus room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "tbc_zbonus"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Soda Lake",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "tbs_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Goal room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "tbs_sub_1"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             "title": "Forest of Illusion",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Forest of Illusion"
-                                ]
-                            }
+                            "content": [
+                                {
+                                    "type": "tabbed",
+                                    "tabs": [
+                                        {
+                                            "title": "Forest of Illusion 1",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "foi1_main"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Forest of Illusion 2",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "foi2_main"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Forest of Illusion 3",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "foi3_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Keyhole room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "foi3_sub"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Bonus room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "foi3_zbonus"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Forest of Illusion 4",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "foi4_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Keyhole room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "foi4_sub_1"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Blurp room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "foi4_sub_2"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "#5 Roy's Castle",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "foic_main"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Forest Fortress",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Smashers room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "foif_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Lava pool room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "foif_sub_1"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Forest Ghost House",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "foigh_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Ghost ceiling room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "foigh_sub_1"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Normal goal room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "foigh_sub_2"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Secret goal room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "foigh_sub_3"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Forest Secret Area",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "fois_main"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Blue Switch Palace",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Bonus room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "foiz_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Button room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "foiz_sub_1"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Chocolate Island",
+                            "content": [
+                                {
+                                    "type": "tabbed",
+                                    "tabs": [
+                                        {
+                                            "title": "Chocolate Island 1",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ci1_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Copy of main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ci1_main_alt"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Porcupuffer room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ci1_sub"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Chocolate Island 2",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ci2_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Slanted Platforms room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ci2_sub_1a"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Rexes room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ci2_sub_1b"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Cliff room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ci2_sub_1c"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Bubbles room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ci2_sub_2a"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Bumpy Path",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ci2_sub_2b"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Keyhole room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ci2_sub_2c"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Normal goal",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ci2_sub_3a"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Dragon coin goal",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ci2_sub_3b"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Chocolate Island 3",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ci3_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Coin room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ci3_sub"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Chocolate Island 4",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ci4_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Vertical bonus room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ci4_sub_vert"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Chocolate Island 5",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ci5_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Bubbles room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ci5_sub"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Bonus room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ci5_zbonus"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "#6 Wendy's Castle",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Spikes room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "cic_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Hothead room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "cic_sub"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Chocolate Fortress",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Wooden spike room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "cif_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Thwomp room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "cif_sub"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Choco Ghost House",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Fishing boo room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "cigh_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Boo stream room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "cigh_sub_1"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Goal room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "cigh_sub_2"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Chocolate Secret",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Chuck room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "cis_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Hammer bro room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "cis_sub_1"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Sliding room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "cis_sub_2_vert"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Sinking rocks room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "cis_sub_3"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Goal room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "cis_sub_4"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Sunken Ghost Ship",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Ship entrance",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ciship_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Reappearing ghosts",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ciship_sub_1"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Falling room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "ciship_sub_2_vert"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             "title": "Valley of Bowser",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Valley of Bowser"
-                                ]
-                            }
+                            "content": [
+                                {
+                                    "type": "tabbed",
+                                    "tabs": [
+                                        {
+                                            "title": "Valley of Bowser 1",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vob1_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Goal room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vob1_sub"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Bonus room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vob1_zbonus"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Valley of Bowser 2",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vob2_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Moving rocks room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vob2_sub_1"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Rising rocks room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vob2_sub_2"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Yoshi wings room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vob2_sub_3"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Valley of Bowser 3",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vob3_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Bonus room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vob3_zbonus"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Valley of Bowser 4",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vob4_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Ice cave room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vob4_sub"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "#7 Larry's Castle",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Snake block room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vobc_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Magikoopa room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vobc_sub"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Valley Fortress",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vobf_main"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Valley Ghost House",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vobgh_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "P-Switch room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vobgh_sub_1"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Directional coin room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vobgh_sub_2"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Goal room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "vobgh_sub_3"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             "title": "Star World",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Star World"
-                                ]
-                            }
+                            "content": [
+                                {
+                                    "type": "tabbed",
+                                    "tabs": [
+                                        {
+                                            "title": "Star World 1",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "sr1_main_vert"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Goal room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "sr1_sub"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Star World 2",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "sr2_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Goal room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "sr2_sub"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Star World 3",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "sr3_main"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Star World 4",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "sr4_main"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Star World 5",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "sr5_main"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
                         },
                         {
                             "title": "Special Zone",
-                            "content": {
-                                "type": "map",
-                                "maps": [
-                                    "Special Zone"
-                                ]
-                            }
+                            "content": [
+                                {
+                                    "type": "tabbed",
+                                    "tabs": [
+                                        {
+                                            "title": "Gnarly",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "sw1_main_vert"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Goal room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "sw1_sub"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Tubular",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "sw2_main"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Way Cool",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "sw3_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Yoshi room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "sw3_sub_1"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Yoshi wings room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "sw3_sub_2"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Awesome",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "sw4_main"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Groovy",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "sw5_main"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Mondo",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "sw6_main"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Slide room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "sw6_sub_1"
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "title": "Goal room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "sw6_sub_2"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Outrageous",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "sw7_main"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "title": "Funky",
+                                            "content": [
+                                                {
+                                                    "type": "tabbed",
+                                                    "tabs": [
+                                                        {
+                                                            "title": "Main room",
+                                                            "content": {
+                                                                "type": "map",
+                                                                "maps": [
+                                                                    "sw8_main"
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
                         }
                     ]
                 }

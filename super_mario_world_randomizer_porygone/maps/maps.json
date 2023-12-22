@@ -1,44 +1,1058 @@
-﻿[
+[
     {
-        "name": "Overworld",
+        "name": "map",
         "location_size": 10,
         "location_border_thickness": 2,
-        "img": "images/maps/overworld.png"
+        "img": "images/maps/map.png"
     },
     {
-        "name": "Yoshi's Island",
-        "location_size": 10,
-        "location_border_thickness": 2,
-        "img": "images/maps/yoshis_island.png"
+        "name": "yi1_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/yi/yi1/main.png"
     },
     {
-        "name": "Vanilla Dome",
-        "location_size": 10,
-        "location_border_thickness": 2,
-        "img": "images/maps/vanilla_dome.png"
+        "name": "yi1_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/yi/yi1/sub_1.png"
     },
     {
-        "name": "Forest of Illusion",
-        "location_size": 10,
-        "location_border_thickness": 2,
-        "img": "images/maps/forest_of_illusion.png"
+        "name": "yi2_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/yi/yi2/main.png"
     },
     {
-        "name": "Valley of Bowser",
-        "location_size": 10,
-        "location_border_thickness": 2,
-        "img": "images/maps/valley_of_bowser.png"
+        "name": "yi2_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/yi/yi2/sub_1.png"
     },
     {
-        "name": "Star World",
-        "location_size": 10,
-        "location_border_thickness": 2,
-        "img": "images/maps/star_world.png"
+        "name": "yi3_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/yi/yi3/main.png"
     },
     {
-        "name": "Special Zone",
-        "location_size": 10,
-        "location_border_thickness": 2,
-        "img": "images/maps/special_zone.png"
+        "name": "yi3_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/yi/yi3/sub_1.png"
+    },
+    {
+        "name": "yi4_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/yi/yi4/main.png"
+    },
+    {
+        "name": "yi4_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/yi/yi4/sub_1.png"
+    },
+    {
+        "name": "yi4_sub_2",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/yi/yi4/sub_2.png"
+    },
+    {
+        "name": "yic_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/yi/yic/main.png"
+    },
+    {
+        "name": "yic_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/yi/yic/sub_1.png"
+    },
+    {
+        "name": "ysp_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/yi/ysp/main.png"
+    },
+    {
+        "name": "ysp_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/yi/ysp/sub_1.png"
+    },
+    {
+        "name": "dp1_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dp1/main.png"
+    },
+    {
+        "name": "dp1_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dp1/sub_1.png"
+    },
+    {
+        "name": "dp1_zbonus",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dp1/zbonus.png"
+    },
+    {
+        "name": "dp2_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dp2/main.png"
+    },
+    {
+        "name": "dp2_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dp2/sub_1.png"
+    },
+    {
+        "name": "dp2_sub_2",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dp2/sub_2.png"
+    },
+    {
+        "name": "dp3_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dp3/main.png"
+    },
+    {
+        "name": "dp3_zbonus",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dp3/zbonus.png"
+    },
+    {
+        "name": "dp4_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dp4/main.png"
+    },
+    {
+        "name": "dp4_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dp4/sub_1.png"
+    },
+    {
+        "name": "dp4_sub_2",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dp4/sub_2.png"
+    },
+    {
+        "name": "dpc_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dpc/main.png"
+    },
+    {
+        "name": "dpc_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dpc/sub_1.png"
+    },
+    {
+        "name": "dpc_sub_2_vert",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dpc/sub_2_vert.png"
+    },
+    {
+        "name": "dpc_zbonus",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dpc/zbonus.png"
+    },
+    {
+        "name": "dpgh_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dpgh/main.png"
+    },
+    {
+        "name": "dpgh_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dpgh/sub_1.png"
+    },
+    {
+        "name": "dpgh_sub_2",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dpgh/sub_2.png"
+    },
+    {
+        "name": "dpgh_sub_3",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dpgh/sub_3.png"
+    },
+    {
+        "name": "dpgh_sub_4",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dpgh/sub_4.png"
+    },
+    {
+        "name": "dpgh_sub_5",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dpgh/sub_5.png"
+    },
+    {
+        "name": "dps1_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dps1/main.png"
+    },
+    {
+        "name": "dps1_sub_1_vert",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dps1/sub_1_vert.png"
+    },
+    {
+        "name": "dps2_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dps2/main.png"
+    },
+    {
+        "name": "dps2_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dps2/sub_1.png"
+    },
+    {
+        "name": "dpsh_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dpsh/main.png"
+    },
+    {
+        "name": "dpsh_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dpsh/sub_1.png"
+    },
+    {
+        "name": "dpsh_sub_2",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dpsh/sub_2.png"
+    },
+    {
+        "name": "dpsh_sub_3",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dpsh/sub_3.png"
+    },
+    {
+        "name": "dpz_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dpz/main.png"
+    },
+    {
+        "name": "dpz_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/dp/dpz/sub_1.png"
+    },
+    {
+        "name": "vd1_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vd1/main.png"
+    },
+    {
+        "name": "vd1_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vd1/sub_1.png"
+    },
+    {
+        "name": "vd2_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vd2/main.png"
+    },
+    {
+        "name": "vd2_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vd2/sub_1.png"
+    },
+    {
+        "name": "vd3_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vd3/main.png"
+    },
+    {
+        "name": "vd3_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vd3/sub_1.png"
+    },
+    {
+        "name": "vd3_zbonus",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vd3/zbonus.png"
+    },
+    {
+        "name": "vd4_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vd4/main.png"
+    },
+    {
+        "name": "vd4_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vd4/sub_1.png"
+    },
+    {
+        "name": "vdc_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vdc/main.png"
+    },
+    {
+        "name": "vdc_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vdc/sub_1.png"
+    },
+    {
+        "name": "vdc_sub_2",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vdc/sub_2.png"
+    },
+    {
+        "name": "vdf_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vdf/main.png"
+    },
+    {
+        "name": "vdf_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vdf/sub_1.png"
+    },
+    {
+        "name": "vdgh_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vdgh/main.png"
+    },
+    {
+        "name": "vdgh_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vdgh/sub_1.png"
+    },
+    {
+        "name": "vdgh_sub_2",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vdgh/sub_2.png"
+    },
+    {
+        "name": "vds1_main_vert",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vds1/main_vert.png"
+    },
+    {
+        "name": "vds1_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vds1/sub_1.png"
+    },
+    {
+        "name": "vds1_sub_2",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vds1/sub_2.png"
+    },
+    {
+        "name": "vds2_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vds2/main.png"
+    },
+    {
+        "name": "vds2_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vds2/sub_1.png"
+    },
+    {
+        "name": "vds3_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vds3/main.png"
+    },
+    {
+        "name": "vds3_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vds3/sub_1.png"
+    },
+    {
+        "name": "vdz_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vdz/main.png"
+    },
+    {
+        "name": "vdz_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vd/vdz/sub_1.png"
+    },
+    {
+        "name": "tb1_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/tb/tb1/main.png"
+    },
+    {
+        "name": "tb1_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/tb/tb1/sub_1.png"
+    },
+    {
+        "name": "tb2_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/tb/tb2/main.png"
+    },
+    {
+        "name": "tb2_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/tb/tb2/sub_1.png"
+    },
+    {
+        "name": "tb3_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/tb/tb3/main.png"
+    },
+    {
+        "name": "tb3_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/tb/tb3/sub_1.png"
+    },
+    {
+        "name": "tb3_sub_2",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/tb/tb3/sub_2.png"
+    },
+    {
+        "name": "tb4_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/tb/tb4/main.png"
+    },
+    {
+        "name": "tb4_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/tb/tb4/sub_1.png"
+    },
+    {
+        "name": "tbc_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/tb/tbc/main.png"
+    },
+    {
+        "name": "tbc_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/tb/tbc/sub_1.png"
+    },
+    {
+        "name": "tbc_sub_2_vert",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/tb/tbc/sub_2_vert.png"
+    },
+    {
+        "name": "tbc_zbonus",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/tb/tbc/zbonus.png"
+    },
+    {
+        "name": "tbs_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/tb/tbs/main.png"
+    },
+    {
+        "name": "tbs_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/tb/tbs/sub_1.png"
+    },
+    {
+        "name": "foi1_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/foi/foi1/main.png"
+    },
+    {
+        "name": "foi2_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/foi/foi2/main.png"
+    },
+    {
+        "name": "foi3_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/foi/foi3/main.png"
+    },
+    {
+        "name": "foi3_sub",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/foi/foi3/sub.png"
+    },
+    {
+        "name": "foi3_zbonus",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/foi/foi3/zbonus.png"
+    },
+    {
+        "name": "foi4_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/foi/foi4/main.png"
+    },
+    {
+        "name": "foi4_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/foi/foi4/sub_1.png"
+    },
+    {
+        "name": "foi4_sub_2",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/foi/foi4/sub_2.png"
+    },
+    {
+        "name": "foic_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/foi/foic/main.png"
+    },
+    {
+        "name": "foif_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/foi/foif/main.png"
+    },
+    {
+        "name": "foif_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/foi/foif/sub_1.png"
+    },
+    {
+        "name": "foigh_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/foi/foigh/main.png"
+    },
+    {
+        "name": "foigh_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/foi/foigh/sub_1.png"
+    },
+    {
+        "name": "foigh_sub_2",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/foi/foigh/sub_2.png"
+    },
+    {
+        "name": "foigh_sub_3",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/foi/foigh/sub_3.png"
+    },
+    {
+        "name": "fois_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/foi/fois/main.png"
+    },
+    {
+        "name": "foiz_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/foi/foiz/main.png"
+    },
+    {
+        "name": "foiz_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/foi/foiz/sub_1.png"
+    },
+    {
+        "name": "ci1_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/ci1/main.png"
+    },
+    {
+        "name": "ci1_main_alt",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/ci1/main_alt.png"
+    },
+    {
+        "name": "ci1_sub",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/ci1/sub.png"
+    },
+    {
+        "name": "ci2_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/ci2/main.png"
+    },
+    {
+        "name": "ci2_sub_1a",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/ci2/sub_1a.png"
+    },
+    {
+        "name": "ci2_sub_1b",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/ci2/sub_1b.png"
+    },
+    {
+        "name": "ci2_sub_1c",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/ci2/sub_1c.png"
+    },
+    {
+        "name": "ci2_sub_2a",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/ci2/sub_2a.png"
+    },
+    {
+        "name": "ci2_sub_2b",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/ci2/sub_2b.png"
+    },
+    {
+        "name": "ci2_sub_2c",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/ci2/sub_2c.png"
+    },
+    {
+        "name": "ci2_sub_3a",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/ci2/sub_3a.png"
+    },
+    {
+        "name": "ci2_sub_3b",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/ci2/sub_3b.png"
+    },
+    {
+        "name": "ci3_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/ci3/main.png"
+    },
+    {
+        "name": "ci3_sub",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/ci3/sub.png"
+    },
+    {
+        "name": "ci4_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/ci4/main.png"
+    },
+    {
+        "name": "ci4_sub_vert",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/ci4/sub_vert.png"
+    },
+    {
+        "name": "ci5_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/ci5/main.png"
+    },
+    {
+        "name": "ci5_sub",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/ci5/sub.png"
+    },
+    {
+        "name": "ci5_zbonus",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/ci5/zbonus.png"
+    },
+    {
+        "name": "cic_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/cic/main.png"
+    },
+    {
+        "name": "cic_sub",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/cic/sub.png"
+    },
+    {
+        "name": "cif_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/cif/main.png"
+    },
+    {
+        "name": "cif_sub",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/cif/sub.png"
+    },
+    {
+        "name": "cigh_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/cigh/main.png"
+    },
+    {
+        "name": "cigh_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/cigh/sub_1.png"
+    },
+    {
+        "name": "cigh_sub_2",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/cigh/sub_2.png"
+    },
+    {
+        "name": "cis_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/cis/main.png"
+    },
+    {
+        "name": "cis_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/cis/sub_1.png"
+    },
+    {
+        "name": "cis_sub_2_vert",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/cis/sub_2_vert.png"
+    },
+    {
+        "name": "cis_sub_3",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/cis/sub_3.png"
+    },
+    {
+        "name": "cis_sub_4",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/cis/sub_4.png"
+    },
+    {
+        "name": "ciship_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/ciship/main.png"
+    },
+    {
+        "name": "ciship_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/ciship/sub_1.png"
+    },
+    {
+        "name": "ciship_sub_2_vert",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/ci/ciship/sub_2_vert.png"
+    },
+    {
+        "name": "vob1_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vob/vob1/main.png"
+    },
+    {
+        "name": "vob1_sub",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vob/vob1/sub.png"
+    },
+    {
+        "name": "vob1_zbonus",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vob/vob1/zbonus.png"
+    },
+    {
+        "name": "vob2_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vob/vob2/main.png"
+    },
+    {
+        "name": "vob2_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vob/vob2/sub_1.png"
+    },
+    {
+        "name": "vob2_sub_2",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vob/vob2/sub_2.png"
+    },
+    {
+        "name": "vob2_sub_3",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vob/vob2/sub_3.png"
+    },
+    {
+        "name": "vob3_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vob/vob3/main.png"
+    },
+    {
+        "name": "vob3_zbonus",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vob/vob3/zbonus.png"
+    },
+    {
+        "name": "vob4_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vob/vob4/main.png"
+    },
+    {
+        "name": "vob4_sub",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vob/vob4/sub.png"
+    },
+    {
+        "name": "vobc_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vob/vobc/main.png"
+    },
+    {
+        "name": "vobc_sub",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vob/vobc/sub.png"
+    },
+    {
+        "name": "vobf_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vob/vobf/main.png"
+    },
+    {
+        "name": "vobgh_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vob/vobgh/main.png"
+    },
+    {
+        "name": "vobgh_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vob/vobgh/sub_1.png"
+    },
+    {
+        "name": "vobgh_sub_2",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vob/vobgh/sub_2.png"
+    },
+    {
+        "name": "vobgh_sub_3",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/vob/vobgh/sub_3.png"
+    },
+    {
+        "name": "sr1_main_vert",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/sr/sr1/main_vert.png"
+    },
+    {
+        "name": "sr1_sub",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/sr/sr1/sub.png"
+    },
+    {
+        "name": "sr2_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/sr/sr2/main.png"
+    },
+    {
+        "name": "sr2_sub",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/sr/sr2/sub.png"
+    },
+    {
+        "name": "sr3_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/sr/sr3/main.png"
+    },
+    {
+        "name": "sr4_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/sr/sr4/main.png"
+    },
+    {
+        "name": "sr5_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/sr/sr5/main.png"
+    },
+    {
+        "name": "sw1_main_vert",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/sw/sw1/main_vert.png"
+    },
+    {
+        "name": "sw1_sub",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/sw/sw1/sub.png"
+    },
+    {
+        "name": "sw2_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/sw/sw2/main.png"
+    },
+    {
+        "name": "sw3_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/sw/sw3/main.png"
+    },
+    {
+        "name": "sw3_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/sw/sw3/sub_1.png"
+    },
+    {
+        "name": "sw3_sub_2",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/sw/sw3/sub_2.png"
+    },
+    {
+        "name": "sw4_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/sw/sw4/main.png"
+    },
+    {
+        "name": "sw5_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/sw/sw5/main.png"
+    },
+    {
+        "name": "sw6_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/sw/sw6/main.png"
+    },
+    {
+        "name": "sw6_sub_1",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/sw/sw6/sub_1.png"
+    },
+    {
+        "name": "sw6_sub_2",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/sw/sw6/sub_2.png"
+    },
+    {
+        "name": "sw7_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/sw/sw7/main.png"
+    },
+    {
+        "name": "sw8_main",
+        "location_size": 20,
+        "location_border_thickness": 4,
+        "img": "images/levels/sw/sw8/main.png"
     }
 ]

@@ -1,0 +1,133 @@
+[
+    {
+        "name": "Awesome",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            "powerup_2",
+                            "star"
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Awesome - Goal",
+                "map_locations": [
+                    {
+                        "map": "sw4_main",
+                        "x": 744,
+                        "y": 1240
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "dragon_coin_checks"
+                        ],
+                        "name": "Dragon Coins",
+                        "access_rules": [
+                            "powerup_2",
+                            "star"
+                        ],
+                        "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
+                        "chest_opened_img": "images/checks/dragon_coin.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "name": "Awesome - Dragon Coin",
+                "map_locations": [
+                    {
+                        "map": "sw4_main",
+                        "x": 872,
+                        "y": 288
+                    },
+                    {
+                        "map": "sw4_main",
+                        "x": 1480,
+                        "y": 288
+                    },
+                    {
+                        "map": "sw4_main",
+                        "x": 1000,
+                        "y": 736
+                    },
+                    {
+                        "map": "sw4_main",
+                        "x": 1448,
+                        "y": 704
+                    },
+                    {
+                        "map": "sw4_main",
+                        "x": 280,
+                        "y": 1136
+                    }
+                ]
+            },
+            {
+                "name": "Awesome - Blocksanity - Powerup Block #1",
+                "sections": [
+                    {
+                        "name": "Powerup Block #1",
+                        "access_rules": [
+                            "powerup_2"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sw4_main",
+                        "x": 1176,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "Awesome - Blocksanity - Star Block #1",
+                "sections": [
+                    {
+                        "name": "Star Block #1",
+                        "access_rules": [
+                            "powerup_2, carry",
+                            "powerup_2, p_switch"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sw4_main",
+                        "x": 760,
+                        "y": 680
+                    }
+                ]
+            }
+        ]
+    }
+]

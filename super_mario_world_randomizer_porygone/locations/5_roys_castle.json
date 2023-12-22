@@ -1,0 +1,106 @@
+[
+    {
+        "name": "#5 Roy's Castle",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "#5 Roy's Castle - Goal",
+                "map_locations": [
+                    {
+                        "map": "foic_main",
+                        "x": 1744,
+                        "y": 768
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "dragon_coin_checks"
+                        ],
+                        "name": "Dragon Coins",
+                        "access_rules": [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
+                        "chest_opened_img": "images/checks/dragon_coin.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "name": "#5 Roy's Castle - Dragon Coin",
+                "map_locations": [
+                    {
+                        "map": "foic_main",
+                        "x": 632,
+                        "y": 320
+                    },
+                    {
+                        "map": "foic_main",
+                        "x": 1896,
+                        "y": 304
+                    },
+                    {
+                        "map": "foic_main",
+                        "x": 24,
+                        "y": 736
+                    },
+                    {
+                        "map": "foic_main",
+                        "x": 184,
+                        "y": 736
+                    },
+                    {
+                        "map": "foic_main",
+                        "x": 1320,
+                        "y": 704
+                    }
+                ]
+            },
+            {
+                "name": "#5 Roy's Castle - Blocksanity - Green Switch Palace Block #1",
+                "sections": [
+                    {
+                        "name": "Green Switch Palace Block #1",
+                        "access_rules": [
+                            "gsp"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "foic_main",
+                        "x": 1224,
+                        "y": 728
+                    }
+                ]
+            }
+        ]
+    }
+]

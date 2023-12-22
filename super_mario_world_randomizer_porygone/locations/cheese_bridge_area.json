@@ -1,0 +1,229 @@
+[
+    {
+        "name": "Cheese Bridge Area",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            "climb"
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Cheese Bridge Area - Goal",
+                "map_locations": [
+                    {
+                        "map": "tb3_main",
+                        "x": 744,
+                        "y": 1208
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Secret Exit",
+                        "access_rules": [
+                            "powerup_3, run",
+                            "powerup_3, yoshi"
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Cheese Bridge Area - Secret goal",
+                "map_locations": [
+                    {
+                        "map": "tb3_main",
+                        "x": 1256,
+                        "y": 1240
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "dragon_coin_checks"
+                        ],
+                        "name": "Dragon Coins",
+                        "access_rules": [
+                            "yoshi",
+                            "climb"
+                        ],
+                        "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
+                        "chest_opened_img": "images/checks/dragon_coin.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "name": "Cheese Bridge Area - Dragon Coin",
+                "map_locations": [
+                    {
+                        "map": "tb3_main",
+                        "x": 1160,
+                        "y": 336
+                    },
+                    {
+                        "map": "tb3_main",
+                        "x": 1544,
+                        "y": 240
+                    },
+                    {
+                        "map": "tb3_main",
+                        "x": 56,
+                        "y": 800
+                    },
+                    {
+                        "map": "tb3_main",
+                        "x": 968,
+                        "y": 736
+                    },
+                    {
+                        "map": "tb3_main",
+                        "x": 184,
+                        "y": 1152
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "moon_checks"
+                        ],
+                        "name": "3-Up Moon",
+                        "access_rules": [
+                            "powerup_3, run",
+                            "powerup_3, yoshi"
+                        ],
+                        "chest_unopened_img": "images/checks/moon_disabled.png",
+                        "chest_opened_img": "images/checks/moon.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Cheese Bridge Area - 3-Up Moon",
+                "map_locations": [
+                    {
+                        "map": "tb3_main",
+                        "x": 1144,
+                        "y": 1160
+                    }
+                ]
+            },
+            {
+                "name": "Cheese Bridge Area - Blocksanity - Powerup Block #1",
+                "sections": [
+                    {
+                        "name": "Powerup Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb3_main",
+                        "x": 200,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "Cheese Bridge Area - Blocksanity - Powerup Block #2",
+                "sections": [
+                    {
+                        "name": "Powerup Block #2",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb3_main",
+                        "x": 1384,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Cheese Bridge Area - Blocksanity - Wings Block #1",
+                "sections": [
+                    {
+                        "name": "Wings Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb3_main",
+                        "x": 536,
+                        "y": 760
+                    }
+                ]
+            },
+            {
+                "name": "Cheese Bridge Area - Blocksanity - Powerup Block #3",
+                "sections": [
+                    {
+                        "name": "Powerup Block #3",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb3_main",
+                        "x": 872,
+                        "y": 776
+                    }
+                ]
+            }
+        ]
+    }
+]

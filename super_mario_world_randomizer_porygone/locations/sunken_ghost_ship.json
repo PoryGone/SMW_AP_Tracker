@@ -1,0 +1,130 @@
+[
+    {
+        "name": "Sunken Ghost Ship",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            "swim"
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Sunken Ghost Ship - Goal",
+                "map_locations": [
+                    {
+                        "map": "ciship_sub_2_vert",
+                        "x": 4456,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "dragon_coin_checks"
+                        ],
+                        "name": "Dragon Coins",
+                        "access_rules": [
+                            "swim, star, powerup_3"
+                        ],
+                        "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
+                        "chest_opened_img": "images/checks/dragon_coin.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "name": "Sunken Ghost Ship - Dragon Coin",
+                "map_locations": [
+                    {
+                        "map": "ciship_sub_2_vert",
+                        "x": 120,
+                        "y": 576
+                    },
+                    {
+                        "map": "ciship_sub_2_vert",
+                        "x": 888,
+                        "y": 416
+                    },
+                    {
+                        "map": "ciship_sub_2_vert",
+                        "x": 1288,
+                        "y": 624
+                    },
+                    {
+                        "map": "ciship_sub_2_vert",
+                        "x": 2216,
+                        "y": 448
+                    },
+                    {
+                        "map": "ciship_sub_2_vert",
+                        "x": 2872,
+                        "y": 368
+                    }
+                ]
+            },
+            {
+                "name": "Sunken Ghost Ship - Blocksanity - Powerup Block #1",
+                "sections": [
+                    {
+                        "name": "Powerup Block #1",
+                        "access_rules": [
+                            "swim"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ciship_main",
+                        "x": 280,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Sunken Ghost Ship - Blocksanity - Star Block #1",
+                "sections": [
+                    {
+                        "name": "Star Block #1",
+                        "access_rules": [
+                            "swim"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ciship_sub_2_vert",
+                        "x": 2312,
+                        "y": 136
+                    }
+                ]
+            }
+        ]
+    }
+]
