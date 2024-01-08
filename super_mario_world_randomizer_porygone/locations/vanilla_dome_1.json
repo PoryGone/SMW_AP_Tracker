@@ -68,7 +68,7 @@
                         "name": "Dragon Coins",
                         "access_rules": [
                             "carry, run, star",
-                            "carry, run, star"
+                            "carry, run, powerup_1"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",
