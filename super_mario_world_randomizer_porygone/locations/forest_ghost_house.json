@@ -26,7 +26,7 @@
                 "name": "Forest Ghost House - Goal",
                 "map_locations": [
                     {
-                        "map": "foigh_sub_2",
+                        "map": "foigh_sub_3",
                         "x": 232,
                         "y": 376
                     }
@@ -50,7 +50,7 @@
                 "name": "Forest Ghost House - Secret goal",
                 "map_locations": [
                     {
-                        "map": "foigh_sub_3",
+                        "map": "foigh_sub_2",
                         "x": 232,
                         "y": 376
                     }
