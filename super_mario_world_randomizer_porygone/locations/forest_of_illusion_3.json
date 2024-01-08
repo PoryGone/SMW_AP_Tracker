@@ -104,6 +104,30 @@
                 ]
             },
             {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "hidden_1up_checks"
+                        ],
+                        "name": "Hidden 1-Up",
+                        "access_rules": [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/checks/hidden_disabled.png",
+                        "chest_opened_img": "images/checks/hidden.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Forest of Illusion 3 - Hidden 1-Up",
+                "map_locations": [
+                    {
+                        "map": "foi3_main",
+                        "x": 1768,
+                        "y": 728
+                    }
+                ]
+            },
+            {
                 "name": "Forest of Illusion 3 - Blocksanity - Yoshi Block #1",
                 "sections": [
                     {
