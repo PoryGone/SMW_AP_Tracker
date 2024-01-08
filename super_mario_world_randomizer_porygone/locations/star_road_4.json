@@ -7,6 +7,281 @@
         "visibility_rules": [
             ""
         ],
-        "children": []
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Star Road 4 - Goal",
+                "map_locations": [
+                    {
+                        "map": "sr4_main",
+                        "x": 744,
+                        "y": 1240
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Secret Exit",
+                        "access_rules": [
+                            "carry, yoshi",
+                            "carry, gsp, rsp"
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Star Road 4 - Keyhole",
+                "map_locations": [
+                    {
+                        "map": "sr4_main",
+                        "x": 1416,
+                        "y": 792
+                    }
+                ]
+            },
+            {
+                "name": "Star Road 4 - Blocksanity - Powerup Block #1",
+                "sections": [
+                    {
+                        "name": "Powerup Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sr4_main",
+                        "x": 1352,
+                        "y": 152
+                    }
+                ]
+            },
+            {
+                "name": "Star Road 4 - Blocksanity - Green Switch Palace Block #1",
+                "sections": [
+                    {
+                        "name": "Green Switch Palace Block #1",
+                        "access_rules": [
+                            "gsp, special, yoshi, carry",
+                            "gsp, run, powerup_3"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sr4_main",
+                        "x": 1032,
+                        "y": 760
+                    }
+                ]
+            },
+            {
+                "name": "Star Road 4 - Blocksanity - Green Switch Palace Block #2",
+                "sections": [
+                    {
+                        "name": "Green Switch Palace Block #2",
+                        "access_rules": [
+                            "gsp, special, yoshi, carry",
+                            "gsp, run, powerup_3"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sr4_main",
+                        "x": 1048,
+                        "y": 760
+                    }
+                ]
+            },
+            {
+                "name": "Star Road 4 - Blocksanity - Green Switch Palace Block #3",
+                "sections": [
+                    {
+                        "name": "Green Switch Palace Block #3",
+                        "access_rules": [
+                            "gsp, special, yoshi, carry",
+                            "gsp, run, powerup_3"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sr4_main",
+                        "x": 1064,
+                        "y": 760
+                    }
+                ]
+            },
+            {
+                "name": "Star Road 4 - Blocksanity - Green Switch Palace Block #4",
+                "sections": [
+                    {
+                        "name": "Green Switch Palace Block #4",
+                        "access_rules": [
+                            "gsp, special, yoshi, carry",
+                            "gsp, run, powerup_3"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sr4_main",
+                        "x": 1080,
+                        "y": 760
+                    }
+                ]
+            },
+            {
+                "name": "Star Road 4 - Blocksanity - Green Switch Palace Block #5",
+                "sections": [
+                    {
+                        "name": "Green Switch Palace Block #5",
+                        "access_rules": [
+                            "gsp, special, yoshi, carry",
+                            "gsp, run, powerup_3"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sr4_main",
+                        "x": 1096,
+                        "y": 760
+                    }
+                ]
+            },
+            {
+                "name": "Star Road 4 - Blocksanity - Green Switch Palace Block #6",
+                "sections": [
+                    {
+                        "name": "Green Switch Palace Block #6",
+                        "access_rules": [
+                            "gsp, special, yoshi, carry",
+                            "gsp, run, powerup_3"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sr4_main",
+                        "x": 1112,
+                        "y": 760
+                    }
+                ]
+            },
+            {
+                "name": "Star Road 4 - Blocksanity - Green Switch Palace Block #7",
+                "sections": [
+                    {
+                        "name": "Green Switch Palace Block #7",
+                        "access_rules": [
+                            "gsp, special, yoshi, carry",
+                            "gsp, run, powerup_3",
+                            "gsp, rsp"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sr4_main",
+                        "x": 1128,
+                        "y": 760
+                    }
+                ]
+            },
+            {
+                "name": "Star Road 4 - Blocksanity - Key Block #1",
+                "sections": [
+                    {
+                        "name": "Key Block #1",
+                        "access_rules": [
+                            "carry yoshi",
+                            "gsp, rsp, carry"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sr4_main",
+                        "x": 1352,
+                        "y": 792
+                    }
+                ]
+            }
+        ]
     }
 ]
