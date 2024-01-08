@@ -40,7 +40,9 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            ""
+                            "spin_jump, powerup_1, climb",
+                            "yoshi",
+                            "powerup_3, run"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",
