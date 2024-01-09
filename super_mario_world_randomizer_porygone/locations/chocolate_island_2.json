@@ -26,14 +26,14 @@
                 "name": "Chocolate Island 2 - Goal",
                 "map_locations": [
                     {
-                        "map": "ci2_sub_3a",
+                        "map": "ci2_sub_3",
                         "x": 744,
                         "y": 376
                     },
                     {
-                        "map": "ci2_sub_3b",
+                        "map": "ci2_sub_3",
                         "x": 744,
-                        "y": 376
+                        "y": 808
                     }
                 ]
             },
@@ -55,9 +55,9 @@
                 "name": "Chocolate Island 2 - Keyhole",
                 "map_locations": [
                     {
-                        "map": "ci2_sub_2c",
+                        "map": "ci2_sub_2",
                         "x": 968,
-                        "y": 296
+                        "y": 1160
                     }
                 ]
             },
@@ -93,29 +93,29 @@
                         "y": 112
                     },
                     {
-                        "map": "ci2_sub_1c",
+                        "map": "ci2_sub_1",
                         "x": 744,
-                        "y": 64
+                        "y": 928
                     },
                     {
-                        "map": "ci2_sub_1b",
+                        "map": "ci2_sub_1",
                         "x": 1192,
-                        "y": 240
+                        "y": 672
                     },
                     {
-                        "map": "ci2_sub_2a",
+                        "map": "ci2_sub_2",
                         "x": 584,
                         "y": 352
                     },
                     {
-                        "map": "ci2_sub_2b",
+                        "map": "ci2_sub_2",
                         "x": 488,
-                        "y": 288
+                        "y": 720
                     },
                     {
-                        "map": "ci2_sub_3b",
+                        "map": "ci2_sub_3",
                         "x": 600,
-                        "y": 368
+                        "y": 800
                     }
                 ]
             },
@@ -137,9 +137,9 @@
                 "name": "Chocolate Island 2 - Hidden 1-Up",
                 "map_locations": [
                     {
-                        "map": "ci2_sub_1b",
+                        "map": "ci2_sub_1",
                         "x": 120,
-                        "y": 328
+                        "y": 760
                     }
                 ]
             },
@@ -233,9 +233,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ci2_sub_1b",
+                        "map": "ci2_sub_1",
                         "x": 136,
-                        "y": 328
+                        "y": 760
                     }
                 ]
             },
@@ -257,9 +257,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ci2_sub_1b",
+                        "map": "ci2_sub_1",
                         "x": 1480,
-                        "y": 328
+                        "y": 760
                     }
                 ]
             },
@@ -281,9 +281,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ci2_sub_1b",
+                        "map": "ci2_sub_1",
                         "x": 1528,
-                        "y": 296
+                        "y": 728
                     }
                 ]
             },
@@ -305,9 +305,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ci2_sub_1b",
+                        "map": "ci2_sub_1",
                         "x": 1576,
-                        "y": 264
+                        "y": 696
                     }
                 ]
             },
@@ -329,9 +329,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ci2_sub_3b",
+                        "map": "ci2_sub_3",
                         "x": 72,
-                        "y": 328
+                        "y": 760
                     }
                 ]
             },
@@ -353,9 +353,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ci2_sub_2c",
+                        "map": "ci2_sub_2",
                         "x": 408,
-                        "y": 280
+                        "y": 1144
                     }
                 ]
             },
@@ -377,9 +377,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ci2_sub_2c",
+                        "map": "ci2_sub_2",
                         "x": 424,
-                        "y": 280
+                        "y": 1144
                     }
                 ]
             },
@@ -401,9 +401,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ci2_sub_2c",
+                        "map": "ci2_sub_2",
                         "x": 584,
-                        "y": 280
+                        "y": 1144
                     }
                 ]
             },
@@ -425,9 +425,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ci2_sub_2c",
+                        "map": "ci2_sub_2",
                         "x": 600,
-                        "y": 280
+                        "y": 1144
                     }
                 ]
             },
@@ -449,9 +449,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ci2_sub_2c",
+                        "map": "ci2_sub_2",
                         "x": 616,
-                        "y": 280
+                        "y": 1144
                     }
                 ]
             },
@@ -473,9 +473,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ci2_sub_2c",
+                        "map": "ci2_sub_2",
                         "x": 632,
-                        "y": 280
+                        "y": 1144
                     }
                 ]
             },
@@ -497,9 +497,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ci2_sub_2c",
+                        "map": "ci2_sub_2",
                         "x": 648,
-                        "y": 280
+                        "y": 1144
                     }
                 ]
             },
@@ -521,9 +521,9 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "ci2_sub_2c",
+                        "map": "ci2_sub_2",
                         "x": 664,
-                        "y": 280
+                        "y": 1144
                     }
                 ]
             }

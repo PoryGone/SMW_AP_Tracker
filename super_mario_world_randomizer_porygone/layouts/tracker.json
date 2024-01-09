@@ -1508,74 +1508,29 @@
                                                             }
                                                         },
                                                         {
-                                                            "title": "Slanted Platforms room",
+                                                            "title": "Group A rooms",
                                                             "content": {
                                                                 "type": "map",
                                                                 "maps": [
-                                                                    "ci2_sub_1a"
+                                                                    "ci2_sub_1"
                                                                 ]
                                                             }
                                                         },
                                                         {
-                                                            "title": "Rexes room",
+                                                            "title": "Group B rooms",
                                                             "content": {
                                                                 "type": "map",
                                                                 "maps": [
-                                                                    "ci2_sub_1b"
+                                                                    "ci2_sub_2"
                                                                 ]
                                                             }
                                                         },
                                                         {
-                                                            "title": "Cliff room",
+                                                            "title": "Group C rooms",
                                                             "content": {
                                                                 "type": "map",
                                                                 "maps": [
-                                                                    "ci2_sub_1c"
-                                                                ]
-                                                            }
-                                                        },
-                                                        {
-                                                            "title": "Bubbles room",
-                                                            "content": {
-                                                                "type": "map",
-                                                                "maps": [
-                                                                    "ci2_sub_2a"
-                                                                ]
-                                                            }
-                                                        },
-                                                        {
-                                                            "title": "Bumpy Path",
-                                                            "content": {
-                                                                "type": "map",
-                                                                "maps": [
-                                                                    "ci2_sub_2b"
-                                                                ]
-                                                            }
-                                                        },
-                                                        {
-                                                            "title": "Keyhole room",
-                                                            "content": {
-                                                                "type": "map",
-                                                                "maps": [
-                                                                    "ci2_sub_2c"
-                                                                ]
-                                                            }
-                                                        },
-                                                        {
-                                                            "title": "Normal goal",
-                                                            "content": {
-                                                                "type": "map",
-                                                                "maps": [
-                                                                    "ci2_sub_3a"
-                                                                ]
-                                                            }
-                                                        },
-                                                        {
-                                                            "title": "Dragon coin goal",
-                                                            "content": {
-                                                                "type": "map",
-                                                                "maps": [
-                                                                    "ci2_sub_3b"
+                                                                    "ci2_sub_3"
                                                                 ]
                                                             }
                                                         }

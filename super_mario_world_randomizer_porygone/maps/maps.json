@@ -648,52 +648,22 @@
         "img": "images/levels/ci/ci2/main.png"
     },
     {
-        "name": "ci2_sub_1a",
+        "name": "ci2_sub_1",
         "location_size": 20,
         "location_border_thickness": 4,
-        "img": "images/levels/ci/ci2/sub_1a.png"
+        "img": "images/levels/ci/ci2/sub_1.png"
     },
     {
-        "name": "ci2_sub_1b",
+        "name": "ci2_sub_2",
         "location_size": 20,
         "location_border_thickness": 4,
-        "img": "images/levels/ci/ci2/sub_1b.png"
+        "img": "images/levels/ci/ci2/sub_2.png"
     },
     {
-        "name": "ci2_sub_1c",
+        "name": "ci2_sub_3",
         "location_size": 20,
         "location_border_thickness": 4,
-        "img": "images/levels/ci/ci2/sub_1c.png"
-    },
-    {
-        "name": "ci2_sub_2a",
-        "location_size": 20,
-        "location_border_thickness": 4,
-        "img": "images/levels/ci/ci2/sub_2a.png"
-    },
-    {
-        "name": "ci2_sub_2b",
-        "location_size": 20,
-        "location_border_thickness": 4,
-        "img": "images/levels/ci/ci2/sub_2b.png"
-    },
-    {
-        "name": "ci2_sub_2c",
-        "location_size": 20,
-        "location_border_thickness": 4,
-        "img": "images/levels/ci/ci2/sub_2c.png"
-    },
-    {
-        "name": "ci2_sub_3a",
-        "location_size": 20,
-        "location_border_thickness": 4,
-        "img": "images/levels/ci/ci2/sub_3a.png"
-    },
-    {
-        "name": "ci2_sub_3b",
-        "location_size": 20,
-        "location_border_thickness": 4,
-        "img": "images/levels/ci/ci2/sub_3b.png"
+        "img": "images/levels/ci/ci2/sub_3.png"
     },
     {
         "name": "ci3_main",
