@@ -500,30 +500,6 @@
                 ]
             },
             {
-                "name": "Yoshi's Island 3 - Blocksanity - Yellow Switch Palace Block #13",
-                "sections": [
-                    {
-                        "name": "Yellow Switch Palace Block #13",
-                        "access_rules": [
-                            "ysp, carry"
-                        ],
-                        "visibility_rules": [
-                            "blocksanity"
-                        ],
-                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
-                        "chest_opened_img": "images/checks/blocksanity.png",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "yi3_main",
-                        "x": 1688,
-                        "y": 632
-                    }
-                ]
-            },
-            {
                 "name": "Yoshi's Island 3 - Blocksanity - Bonus Block #1",
                 "sections": [
                     {

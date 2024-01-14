@@ -329,7 +329,7 @@
                     {
                         "name": "Yellow Switch Palace Block #2",
                         "access_rules": [
-                            ""
+                            "ysp"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -591,18 +591,6 @@
                         "name": "Yellow Switch Palace Block #12",
                         "access_rules": [
                             "ysp"
-                        ],
-                        "visibility_rules": [
-                            "blocksanity"
-                        ],
-                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
-                        "chest_opened_img": "images/checks/blocksanity.png",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Yellow Switch Palace Block #13",
-                        "access_rules": [
-                            "ysp, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -1375,7 +1363,8 @@
                     {
                         "name": "Vine Block #1",
                         "access_rules": [
-                            "carry"
+                            "carry, spin_jump, powerup_1",
+                            "yoshi"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -2686,6 +2675,19 @@
                     },
                     {
                         "name": "Powerup Block #4",
+                        "access_rules": [
+                            "swim, climb",
+                            "swim, yoshi"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Powerup Block #5",
                         "access_rules": [
                             "swim, climb",
                             "swim, yoshi"
@@ -8126,8 +8128,7 @@
                     {
                         "name": "Green Switch Palace Block #1",
                         "access_rules": [
-                            "gsp, special, yoshi, carry",
-                            "gsp, run, powerup_3"
+                            "gsp, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8139,8 +8140,7 @@
                     {
                         "name": "Green Switch Palace Block #2",
                         "access_rules": [
-                            "gsp, special, yoshi, carry",
-                            "gsp, run, powerup_3"
+                            "gsp, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8152,8 +8152,7 @@
                     {
                         "name": "Green Switch Palace Block #3",
                         "access_rules": [
-                            "gsp, special, yoshi, carry",
-                            "gsp, run, powerup_3"
+                            "gsp, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8165,8 +8164,7 @@
                     {
                         "name": "Green Switch Palace Block #4",
                         "access_rules": [
-                            "gsp, special, yoshi, carry",
-                            "gsp, run, powerup_3"
+                            "gsp, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8178,8 +8176,7 @@
                     {
                         "name": "Green Switch Palace Block #5",
                         "access_rules": [
-                            "gsp, special, yoshi, carry",
-                            "gsp, run, powerup_3"
+                            "gsp, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8191,8 +8188,7 @@
                     {
                         "name": "Green Switch Palace Block #6",
                         "access_rules": [
-                            "gsp, special, yoshi, carry",
-                            "gsp, run, powerup_3"
+                            "gsp, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8204,9 +8200,7 @@
                     {
                         "name": "Green Switch Palace Block #7",
                         "access_rules": [
-                            "gsp, special, yoshi, carry",
-                            "gsp, run, powerup_3",
-                            "gsp, rsp"
+                            "gsp, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8218,7 +8212,7 @@
                     {
                         "name": "Key Block #1",
                         "access_rules": [
-                            "carry yoshi",
+                            "carry, yoshi",
                             "gsp, rsp, carry"
                         ],
                         "visibility_rules": [

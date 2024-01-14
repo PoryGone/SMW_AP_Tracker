@@ -450,7 +450,7 @@
                     {
                         "name": "Yellow Switch Palace Block #2",
                         "access_rules": [
-                            ""
+                            "ysp"
                         ],
                         "visibility_rules": [
                             "blocksanity"

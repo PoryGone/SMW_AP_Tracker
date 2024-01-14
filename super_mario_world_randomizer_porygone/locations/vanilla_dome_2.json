@@ -376,6 +376,31 @@
                 ]
             },
             {
+                "name": "Vanilla Dome 2 - Blocksanity - Powerup Block #5",
+                "sections": [
+                    {
+                        "name": "Powerup Block #5",
+                        "access_rules": [
+                            "swim, climb",
+                            "swim, yoshi"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vd2_main",
+                        "x": 1304,
+                        "y": 696
+                    }
+                ]
+            },
+            {
                 "name": "Vanilla Dome 2 - Blocksanity - Multi Coin Block #1",
                 "sections": [
                     {
