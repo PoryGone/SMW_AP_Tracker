@@ -14,7 +14,7 @@
                         "visibility_rules": [
                             ""
                         ],
-                        "name": "Secret Exit",
+                        "name": "Normal Exit",
                         "access_rules": [
                             "powerup_3, run"
                         ],
@@ -26,7 +26,7 @@
                 "name": "Donut Ghost House - Goal",
                 "map_locations": [
                     {
-                        "map": "dpgh_sub_4",
+                        "map": "dpgh_sub_5",
                         "x": 232,
                         "y": 376
                     }
@@ -38,7 +38,7 @@
                         "visibility_rules": [
                             ""
                         ],
-                        "name": "Normal Exit",
+                        "name": "Secret Exit",
                         "access_rules": [
                             "climb",
                             "powerup_3, run"
@@ -51,7 +51,7 @@
                 "name": "Donut Ghost House - Secret goal",
                 "map_locations": [
                     {
-                        "map": "dpgh_sub_5",
+                        "map": "dpgh_sub_4",
                         "x": 232,
                         "y": 376
                     }

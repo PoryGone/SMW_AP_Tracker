@@ -1377,7 +1377,7 @@
                                                             }
                                                         },
                                                         {
-                                                            "title": "Normal goal room",
+                                                            "title": "Secret goal room",
                                                             "content": {
                                                                 "type": "map",
                                                                 "maps": [
@@ -1386,7 +1386,7 @@
                                                             }
                                                         },
                                                         {
-                                                            "title": "Secret goal room",
+                                                            "title": "Normal goal room",
                                                             "content": {
                                                                 "type": "map",
                                                                 "maps": [

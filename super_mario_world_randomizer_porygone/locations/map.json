@@ -1919,7 +1919,7 @@
                         "visibility_rules": [
                             ""
                         ],
-                        "name": "Secret Exit",
+                        "name": "Normal Exit",
                         "access_rules": [
                             "powerup_3, run"
                         ],
@@ -1931,7 +1931,7 @@
                         "visibility_rules": [
                             ""
                         ],
-                        "name": "Normal Exit",
+                        "name": "Secret Exit",
                         "access_rules": [
                             "climb",
                             "powerup_3, run"
