@@ -90,6 +90,7 @@
                         ],
                         "name": "3-Up Moon",
                         "access_rules": [
+                            "[powerup_3], [run], yoshi, carry, special",
                             "powerup_3, run"
                         ],
                         "chest_unopened_img": "images/checks/moon_disabled.png",
@@ -377,7 +378,8 @@
                     {
                         "name": "P-Switch Coin Block #1",
                         "access_rules": [
-                            "run, powerup_3, p_switch"
+                            "run, powerup_3, p_switch",
+                            "[run], [powerup_3], yoshi, carry, special, p_switch"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -401,7 +403,8 @@
                     {
                         "name": "P-Switch Coin Block #2",
                         "access_rules": [
-                            "run, powerup_3, p_switch"
+                            "run, powerup_3, p_switch",
+                            "[run], [powerup_3], yoshi, carry, special, p_switch"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -425,7 +428,8 @@
                     {
                         "name": "P-Switch Coin Block #3",
                         "access_rules": [
-                            "run, powerup_3, p_switch"
+                            "run, powerup_3, p_switch",
+                            "[run], [powerup_3], yoshi, carry, special, p_switch"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -449,7 +453,8 @@
                     {
                         "name": "P-Switch Coin Block #4",
                         "access_rules": [
-                            "run, powerup_3, p_switch"
+                            "run, powerup_3, p_switch",
+                            "[run], [powerup_3], yoshi, carry, special, p_switch"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -473,7 +478,8 @@
                     {
                         "name": "P-Switch Coin Block #5",
                         "access_rules": [
-                            "run, powerup_3, p_switch"
+                            "run, powerup_3, p_switch",
+                            "[run], [powerup_3], yoshi, carry, special, p_switch"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -497,7 +503,8 @@
                     {
                         "name": "P-Switch Coin Block #6",
                         "access_rules": [
-                            "run, powerup_3, p_switch"
+                            "run, powerup_3, p_switch",
+                            "[run], [powerup_3], yoshi, carry, special, p_switch"
                         ],
                         "visibility_rules": [
                             "blocksanity"

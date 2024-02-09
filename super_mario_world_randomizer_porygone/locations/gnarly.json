@@ -17,7 +17,9 @@
                         "name": "Normal Exit",
                         "access_rules": [
                             "climb, p_switch",
-                            "climb, run, powerup_3"
+                            "climb, run, powerup_3",
+                            "[climb], p_switch, yoshi, carry",
+                            "[climb], run, powerup_3, yoshi, carry"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -41,7 +43,8 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi, carry"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",
@@ -101,7 +104,8 @@
                         ],
                         "name": "Hidden 1-Up",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi, carry"
                         ],
                         "chest_unopened_img": "images/checks/hidden_disabled.png",
                         "chest_opened_img": "images/checks/hidden.png",
@@ -219,7 +223,8 @@
                     {
                         "name": "1-Up Mushroom Block #1",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -243,7 +248,8 @@
                     {
                         "name": "Vine Block #5",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -267,7 +273,8 @@
                     {
                         "name": "Blue P-Switch Block #1",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -291,7 +298,8 @@
                     {
                         "name": "Vine Block #6",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -315,7 +323,8 @@
                     {
                         "name": "Powerup Block #1",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -339,7 +348,8 @@
                     {
                         "name": "P-Switch Coin Block #1",
                         "access_rules": [
-                            "climb, p_switch, powerup_3"
+                            "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -363,7 +373,8 @@
                     {
                         "name": "P-Switch Coin Block #2",
                         "access_rules": [
-                            "climb, p_switch, powerup_3"
+                            "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -387,7 +398,8 @@
                     {
                         "name": "P-Switch Coin Block #3",
                         "access_rules": [
-                            "climb, p_switch, powerup_3"
+                            "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -411,7 +423,8 @@
                     {
                         "name": "P-Switch Coin Block #4",
                         "access_rules": [
-                            "climb, p_switch, powerup_3"
+                            "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -435,7 +448,8 @@
                     {
                         "name": "P-Switch Coin Block #5",
                         "access_rules": [
-                            "climb, p_switch, powerup_3"
+                            "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -459,7 +473,8 @@
                     {
                         "name": "P-Switch Coin Block #6",
                         "access_rules": [
-                            "climb, p_switch, powerup_3"
+                            "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -483,7 +498,8 @@
                     {
                         "name": "P-Switch Coin Block #7",
                         "access_rules": [
-                            "climb, p_switch, powerup_3"
+                            "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -507,7 +523,8 @@
                     {
                         "name": "P-Switch Coin Block #8",
                         "access_rules": [
-                            "climb, p_switch, powerup_3"
+                            "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -531,7 +548,8 @@
                     {
                         "name": "P-Switch Coin Block #9",
                         "access_rules": [
-                            "climb, p_switch, powerup_3"
+                            "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -556,6 +574,7 @@
                         "name": "P-Switch Coin Block #10",
                         "access_rules": [
                             "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry",
                             "climb, p_switch, carry"
                         ],
                         "visibility_rules": [
@@ -581,6 +600,7 @@
                         "name": "P-Switch Coin Block #11",
                         "access_rules": [
                             "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry",
                             "climb, p_switch, carry"
                         ],
                         "visibility_rules": [
@@ -606,6 +626,7 @@
                         "name": "P-Switch Coin Block #12",
                         "access_rules": [
                             "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry",
                             "climb, p_switch, carry"
                         ],
                         "visibility_rules": [
@@ -631,6 +652,7 @@
                         "name": "P-Switch Coin Block #13",
                         "access_rules": [
                             "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry",
                             "climb, p_switch, carry"
                         ],
                         "visibility_rules": [

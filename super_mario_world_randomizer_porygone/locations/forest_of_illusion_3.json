@@ -17,7 +17,9 @@
                         "name": "Normal Exit",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -41,7 +43,8 @@
                         ],
                         "name": "Secret Exit",
                         "access_rules": [
-                            "powerup_1, spin_jump, carry"
+                            "powerup_1, spin_jump, carry",
+                            "[powerup_1], [spin_jump], carry, yoshi"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -65,8 +68,10 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
+                            "carry",
                             "yoshi",
-                            "carry"
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",
@@ -111,7 +116,10 @@
                         ],
                         "name": "Hidden 1-Up",
                         "access_rules": [
-                            ""
+                            "carry",
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "chest_unopened_img": "images/checks/hidden_disabled.png",
                         "chest_opened_img": "images/checks/hidden.png",
@@ -206,7 +214,9 @@
                         "name": "Coin Block #2",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], poweurp_1",
+                            "[yoshi], poweurp_1"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -231,7 +241,9 @@
                         "name": "Multi Coin Block #2",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -256,7 +268,9 @@
                         "name": "Coin Block #3",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -281,7 +295,9 @@
                         "name": "Coin Block #4",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -306,7 +322,9 @@
                         "name": "Coin Block #5",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -331,7 +349,9 @@
                         "name": "Coin Block #6",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -356,7 +376,9 @@
                         "name": "Coin Block #7",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -381,7 +403,9 @@
                         "name": "Coin Block #8",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -406,7 +430,9 @@
                         "name": "Coin Block #9",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -431,7 +457,9 @@
                         "name": "Coin Block #10",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -456,7 +484,9 @@
                         "name": "Coin Block #11",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -481,7 +511,9 @@
                         "name": "Coin Block #12",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -506,7 +538,9 @@
                         "name": "Coin Block #13",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -531,7 +565,9 @@
                         "name": "Coin Block #14",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -556,7 +592,9 @@
                         "name": "Coin Block #15",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -581,7 +619,9 @@
                         "name": "Coin Block #16",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -606,7 +646,9 @@
                         "name": "Coin Block #17",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -631,7 +673,9 @@
                         "name": "Coin Block #18",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -656,7 +700,9 @@
                         "name": "Coin Block #19",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -681,7 +727,9 @@
                         "name": "Coin Block #20",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -706,7 +754,9 @@
                         "name": "Coin Block #21",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -731,7 +781,9 @@
                         "name": "Coin Block #22",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -756,7 +808,9 @@
                         "name": "Coin Block #23",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -781,7 +835,9 @@
                         "name": "Coin Block #24",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"

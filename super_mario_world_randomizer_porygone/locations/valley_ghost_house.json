@@ -40,7 +40,7 @@
                         ],
                         "name": "Secret Exit",
                         "access_rules": [
-                            "p_switch, carry, run"
+                            "p_switch, carry, [run]"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",

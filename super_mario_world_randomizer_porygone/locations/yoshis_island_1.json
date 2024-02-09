@@ -85,6 +85,7 @@
                         ],
                         "name": "3-Up Moon",
                         "access_rules": [
+                            "yoshi",
                             "powerup_3, run"
                         ],
                         "chest_unopened_img": "images/checks/moon_disabled.png",

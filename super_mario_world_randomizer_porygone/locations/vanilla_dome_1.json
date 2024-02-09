@@ -16,8 +16,8 @@
                         ],
                         "name": "Normal Exit",
                         "access_rules": [
-                            "run, star",
-                            "run, powerup_1"
+                            "[run], [star]",
+                            "[run], [powerup_1]"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -41,8 +41,8 @@
                         ],
                         "name": "Secret Exit",
                         "access_rules": [
-                            "carry, yoshi, climb",
-                            "carry, yoshi, rsp",
+                            "carry, yoshi, [climb]",
+                            "carry, yoshi, [rsp]",
                             "carry, rsp, climb"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
@@ -67,8 +67,8 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "carry, run, star",
-                            "carry, run, powerup_1"
+                            "carry, [run], [star]",
+                            "carry, [run], [powerup_1]"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",
@@ -255,6 +255,8 @@
                     {
                         "name": "Vine Block #1",
                         "access_rules": [
+                            "[carry], yoshi",
+                            "[rsp], yoshi",
                             "carry",
                             "rsp"
                         ],
@@ -304,8 +306,8 @@
                     {
                         "name": "Powerup Block #4",
                         "access_rules": [
-                            "run, star",
-                            "run, powerup_1"
+                            "[run], [star]",
+                            "[run], [powerup_1]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -329,8 +331,8 @@
                     {
                         "name": "Coin Block #2",
                         "access_rules": [
-                            "run, star",
-                            "run, powerup_1"
+                            "[run], [star]",
+                            "[run], [powerup_1]"
                         ],
                         "visibility_rules": [
                             "blocksanity"

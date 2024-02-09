@@ -16,7 +16,7 @@
                         ],
                         "name": "Normal Exit",
                         "access_rules": [
-                            "powerup_1"
+                            "[powerup_1]"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -40,7 +40,7 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "powerup_1"
+                            "[powerup_1]"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",

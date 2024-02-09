@@ -38,8 +38,8 @@
                     {
                         "name": "1-Up Mushroom Block #1",
                         "access_rules": [
-                            "carry",
-                            "poweurp_1"
+                            "[carry]",
+                            "[poweurp_1]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -63,8 +63,8 @@
                     {
                         "name": "1-Up Mushroom Block #2",
                         "access_rules": [
-                            "carry",
-                            "poweurp_1"
+                            "[carry]",
+                            "[poweurp_1]"
                         ],
                         "visibility_rules": [
                             "blocksanity"

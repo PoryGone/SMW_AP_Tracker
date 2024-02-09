@@ -347,7 +347,9 @@
                     {
                         "name": "Coin Block #8",
                         "access_rules": [
-                            "carry"
+                            "carry",
+                            "[carry], yoshi",
+                            "[carry], powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"

@@ -40,7 +40,8 @@
                         ],
                         "name": "Secret Exit",
                         "access_rules": [
-                            "carry, p_balloon"
+                            "carry, p_balloon",
+                            "carry, yoshi, [p_balloon]"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -134,7 +135,8 @@
                     {
                         "name": "Key Block #1",
                         "access_rules": [
-                            "p_balloon"
+                            "p_balloon",
+                            "[p_balloon], yoshi"
                         ],
                         "visibility_rules": [
                             "blocksanity"

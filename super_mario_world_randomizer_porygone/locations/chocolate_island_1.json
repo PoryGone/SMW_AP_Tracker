@@ -16,7 +16,9 @@
                         ],
                         "name": "Normal Exit",
                         "access_rules": [
-                            "p_switch"
+                            "p_switch",
+                            "[p_switch], powerup_1",
+                            "[p_switch], yoshi"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -45,7 +47,9 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "swim"
+                            "p_switch",
+                            "[p_switch], powerup_1",
+                            "[p_switch], yoshi"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",
@@ -90,7 +94,8 @@
                         ],
                         "name": "3-Up Moon",
                         "access_rules": [
-                            "powerup_3, run"
+                            "powerup_3, run",
+                            "yoshi"
                         ],
                         "chest_unopened_img": "images/checks/moon_disabled.png",
                         "chest_opened_img": "images/checks/moon.png",
@@ -112,7 +117,9 @@
                     {
                         "name": "Flying Question Block #1",
                         "access_rules": [
-                            "p_switch"
+                            "p_switch",
+                            "[p_switch], powerup_1",
+                            "[p_switch], yoshi"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -141,7 +148,9 @@
                     {
                         "name": "Flying Question Block #2",
                         "access_rules": [
-                            "p_switch"
+                            "p_switch",
+                            "[p_switch], powerup_1",
+                            "[p_switch], yoshi"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -170,7 +179,9 @@
                     {
                         "name": "Yoshi Block #1",
                         "access_rules": [
-                            "p_switch"
+                            "p_switch",
+                            "[p_switch], powerup_1",
+                            "[p_switch], yoshi"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -199,10 +210,18 @@
                     {
                         "name": "Green|Yellow Switch Palace Block #1",
                         "access_rules": [
-                            "gsp, bsp",
-                            "gsp, powerup_3",
-                            "ysp, bsp",
-                            "ysp, poweurp_3"
+                            "p_switch, gsp, bsp",
+                            "[p_switch], powerup_1, gsp, bsp",
+                            "[p_switch], yoshi, gsp, bsp",
+                            "p_switch, gsp, poweurp_3",
+                            "[p_switch], powerup_1, gsp, poweurp_3",
+                            "[p_switch], yoshi, gsp, poweurp_3",
+                            "p_switch, ysp, bsp",
+                            "[p_switch], powerup_1, ysp, bsp",
+                            "[p_switch], yoshi, ysp, bsp",
+                            "p_switch, ysp, poweurp_3",
+                            "[p_switch], powerup_1, ysp, poweurp_3",
+                            "[p_switch], yoshi, ysp, poweurp_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -231,7 +250,9 @@
                     {
                         "name": "1-Up Mushroom Block #1",
                         "access_rules": [
-                            "p_switch"
+                            "p_switch",
+                            "[p_switch], powerup_1",
+                            "[p_switch], yoshi"
                         ],
                         "visibility_rules": [
                             "blocksanity"

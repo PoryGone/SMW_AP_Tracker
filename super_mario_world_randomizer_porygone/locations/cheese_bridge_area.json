@@ -16,7 +16,8 @@
                         ],
                         "name": "Normal Exit",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -41,7 +42,7 @@
                         "name": "Secret Exit",
                         "access_rules": [
                             "powerup_3, run",
-                            "powerup_3, yoshi"
+                            "[powerup_3], yoshi"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -137,7 +138,7 @@
                         "name": "3-Up Moon",
                         "access_rules": [
                             "powerup_3, run",
-                            "powerup_3, yoshi"
+                            "[powerup_3], yoshi"
                         ],
                         "chest_unopened_img": "images/checks/moon_disabled.png",
                         "chest_opened_img": "images/checks/moon.png",

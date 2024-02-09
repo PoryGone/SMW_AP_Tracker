@@ -40,7 +40,7 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "spin_jump, powerup_1, climb",
+                            "[spin_jump], [powerup_1], climb",
                             "yoshi",
                             "powerup_3, run"
                         ],
@@ -181,7 +181,7 @@
                     {
                         "name": "Vine Block #1",
                         "access_rules": [
-                            "powerup_1, spin_jump"
+                            "[powerup_1], [spin_jump]"
                         ],
                         "visibility_rules": [
                             "blocksanity"

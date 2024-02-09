@@ -41,7 +41,7 @@
                         "name": "Secret Exit",
                         "access_rules": [
                             "carry, yoshi",
-                            "carry, spin_jump, climb, powerup_1"
+                            "carry, [spin_jump], climb, [powerup_1]"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -324,7 +324,7 @@
                     {
                         "name": "Vine Block #1",
                         "access_rules": [
-                            "carry, spin_jump, powerup_1",
+                            "carry, [spin_jump], [powerup_1]",
                             "yoshi"
                         ],
                         "visibility_rules": [

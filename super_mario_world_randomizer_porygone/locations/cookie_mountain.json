@@ -41,7 +41,9 @@
                         "name": "Dragon Coins",
                         "access_rules": [
                             "yoshi",
-                            "climb"
+                            "climb",
+                            "[yoshi], powerup_3, run",
+                            "[climb], powerup_3, run"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",
@@ -351,7 +353,11 @@
                         "name": "1-Up Mushroom Block #1",
                         "access_rules": [
                             "climb",
-                            "swim"
+                            "swim",
+                            "[climb], yoshi",
+                            "[swim], yoshi",
+                            "[climb], powerup_3, run",
+                            "[swim], powerup_3, run"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -399,7 +405,7 @@
                     {
                         "name": "Yoshi Block #1",
                         "access_rules": [
-                            "rsp"
+                            "[rsp]"
                         ],
                         "visibility_rules": [
                             "blocksanity"

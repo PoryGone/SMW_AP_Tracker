@@ -38,6 +38,7 @@
                     {
                         "name": "Coin Block #1",
                         "access_rules": [
+                            "carry, [climb]",
                             "climb"
                         ],
                         "visibility_rules": [
@@ -62,6 +63,7 @@
                     {
                         "name": "Coin Block #2",
                         "access_rules": [
+                            "carry, [climb]",
                             "climb"
                         ],
                         "visibility_rules": [
@@ -86,6 +88,7 @@
                     {
                         "name": "Powerup Block #1",
                         "access_rules": [
+                            "carry, [climb]",
                             "climb"
                         ],
                         "visibility_rules": [
@@ -110,6 +113,7 @@
                     {
                         "name": "Coin Block #3",
                         "access_rules": [
+                            "carry, [climb]",
                             "climb"
                         ],
                         "visibility_rules": [
@@ -134,6 +138,7 @@
                     {
                         "name": "Coin Block #4",
                         "access_rules": [
+                            "carry, [climb]",
                             "climb"
                         ],
                         "visibility_rules": [

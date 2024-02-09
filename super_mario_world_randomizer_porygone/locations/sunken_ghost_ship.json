@@ -83,7 +83,7 @@
                     {
                         "name": "Powerup Block #1",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"

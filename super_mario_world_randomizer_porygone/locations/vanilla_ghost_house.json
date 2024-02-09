@@ -40,7 +40,8 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], spin_jump"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",

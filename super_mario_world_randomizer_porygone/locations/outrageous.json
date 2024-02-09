@@ -16,7 +16,7 @@
                         ],
                         "name": "Normal Exit",
                         "access_rules": [
-                            "powerup_1"
+                            "[powerup_1]"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -40,7 +40,7 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "powerup_1"
+                            "[powerup_1]"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",
@@ -83,7 +83,7 @@
                     {
                         "name": "Powerup Block #1",
                         "access_rules": [
-                            "powerup_1"
+                            "[powerup_1]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -107,7 +107,7 @@
                     {
                         "name": "Yoshi Block #1",
                         "access_rules": [
-                            "powerup_1"
+                            "[powerup_1]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -131,7 +131,7 @@
                     {
                         "name": "Coin Block #1",
                         "access_rules": [
-                            "powerup_1"
+                            "[powerup_1]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -155,7 +155,7 @@
                     {
                         "name": "Powerup Block #2",
                         "access_rules": [
-                            "powerup_1"
+                            "[powerup_1]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -179,7 +179,7 @@
                     {
                         "name": "Coin Block #2",
                         "access_rules": [
-                            "powerup_1"
+                            "[powerup_1]"
                         ],
                         "visibility_rules": [
                             "blocksanity"

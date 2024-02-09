@@ -85,6 +85,7 @@
                         ],
                         "name": "3-Up Moon",
                         "access_rules": [
+                            "[powerup_3], [run], yoshi, carry",
                             "powerup_3, run"
                         ],
                         "chest_unopened_img": "images/checks/moon_disabled.png",
@@ -109,6 +110,7 @@
                         ],
                         "name": "Hidden 1-Up",
                         "access_rules": [
+                            "[powerup_3], [run], yoshi, carry",
                             "powerup_3, run"
                         ],
                         "chest_unopened_img": "images/checks/hidden_disabled.png",

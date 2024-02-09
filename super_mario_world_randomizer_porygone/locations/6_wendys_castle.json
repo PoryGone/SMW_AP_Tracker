@@ -62,7 +62,7 @@
                     {
                         "name": "Yellow Switch Palace Block #1",
                         "access_rules": [
-                            "ysp"
+                            "ysp, powerup_1"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -86,7 +86,7 @@
                     {
                         "name": "Yellow Switch Palace Block #2",
                         "access_rules": [
-                            "ysp"
+                            "ysp, powerup_1"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -110,7 +110,7 @@
                     {
                         "name": "Green Switch Palace Block #1",
                         "access_rules": [
-                            "gsp"
+                            "gsp, powerup_1"
                         ],
                         "visibility_rules": [
                             "blocksanity"

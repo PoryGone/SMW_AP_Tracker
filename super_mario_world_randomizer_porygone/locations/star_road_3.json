@@ -62,7 +62,8 @@
                     {
                         "name": "Key Block #1",
                         "access_rules": [
-                            "carry"
+                            "carry",
+                            "powerup_2"
                         ],
                         "visibility_rules": [
                             "blocksanity"

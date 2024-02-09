@@ -71,8 +71,13 @@
                         "access_rules": [
                             "bsp, p_switch",
                             "bsp, gsp",
-                            "bsp, ysp",
-                            "bsp, rsp"
+                            "bsp, ysp, rsp",
+                            "[bsp], p_switch, rsp",
+                            "[bsp], p_switch, ysp",
+                            "[bsp], p_switch, yoshi",
+                            "[bsp], ysp, rsp, yoshi",
+                            "[bsp], gsp, rsp, yoshi",
+                            "[bsp], run, poweurp_3"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",

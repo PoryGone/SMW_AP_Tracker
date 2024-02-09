@@ -16,7 +16,7 @@
                         ],
                         "name": "Normal Exit",
                         "access_rules": [
-                            "powerup_2",
+                            "[powerup_2]",
                             "star"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
@@ -41,7 +41,7 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "powerup_2",
+                            "[powerup_2]",
                             "star"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
@@ -85,7 +85,7 @@
                     {
                         "name": "Powerup Block #1",
                         "access_rules": [
-                            "powerup_2"
+                            "[powerup_2]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -109,8 +109,8 @@
                     {
                         "name": "Star Block #1",
                         "access_rules": [
-                            "powerup_2, carry",
-                            "powerup_2, p_switch"
+                            "[powerup_2], carry",
+                            "[powerup_2], p_switch"
                         ],
                         "visibility_rules": [
                             "blocksanity"

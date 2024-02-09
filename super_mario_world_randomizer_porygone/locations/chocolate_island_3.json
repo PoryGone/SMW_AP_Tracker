@@ -17,7 +17,9 @@
                         "name": "Normal Exit",
                         "access_rules": [
                             "climb",
-                            "powerup_3, run"
+                            "powerup_3, run",
+                            "[climb], yoshi, carry",
+                            "[run], [powerup_3], yoshi, carry"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -41,7 +43,8 @@
                         ],
                         "name": "Secret Exit",
                         "access_rules": [
-                            "powerup_3, run"
+                            "powerup_3, run",
+                            "[run], [powerup_3], yoshi, carry"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -276,7 +279,8 @@
                     {
                         "name": "1-Up Mushroom Block #1",
                         "access_rules": [
-                            "run, powerup_3"
+                            "run, powerup_3",
+                            "[run], [powerup_3], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -300,7 +304,8 @@
                     {
                         "name": "1-Up Mushroom Block #2",
                         "access_rules": [
-                            "run, powerup_3"
+                            "run, powerup_3",
+                            "[run], [powerup_3], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -324,7 +329,8 @@
                     {
                         "name": "1-Up Mushroom Block #3",
                         "access_rules": [
-                            "run, powerup_3"
+                            "run, powerup_3",
+                            "[run], [powerup_3], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"

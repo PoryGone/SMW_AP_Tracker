@@ -40,7 +40,6 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "swim",
                             "carry, p_switch"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
@@ -167,7 +166,7 @@
                     {
                         "name": "Yellow Switch Palace Block #1",
                         "access_rules": [
-                            "ysp, p_switch"
+                            "ysp, carry, p_switch"
                         ],
                         "visibility_rules": [
                             "blocksanity"

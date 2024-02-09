@@ -42,6 +42,7 @@
                         ],
                         "name": "3-Up Moon",
                         "access_rules": [
+                            "yoshi",
                             "powerup_3, run"
                         ],
                         "chest_unopened_img": "images/checks/moon_disabled.png",
@@ -750,6 +751,7 @@
                     {
                         "name": "Coin Block #1",
                         "access_rules": [
+                            "carry, [climb]",
                             "climb"
                         ],
                         "visibility_rules": [
@@ -762,6 +764,7 @@
                     {
                         "name": "Coin Block #2",
                         "access_rules": [
+                            "carry, [climb]",
                             "climb"
                         ],
                         "visibility_rules": [
@@ -774,6 +777,7 @@
                     {
                         "name": "Powerup Block #1",
                         "access_rules": [
+                            "carry, [climb]",
                             "climb"
                         ],
                         "visibility_rules": [
@@ -786,6 +790,7 @@
                     {
                         "name": "Coin Block #3",
                         "access_rules": [
+                            "carry, [climb]",
                             "climb"
                         ],
                         "visibility_rules": [
@@ -798,6 +803,7 @@
                     {
                         "name": "Coin Block #4",
                         "access_rules": [
+                            "carry, [climb]",
                             "climb"
                         ],
                         "visibility_rules": [
@@ -886,7 +892,7 @@
                         "name": "Secret Exit",
                         "access_rules": [
                             "carry, yoshi",
-                            "carry, dpz",
+                            "carry, gsp",
                             "carry, powerup_3, run"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
@@ -971,6 +977,7 @@
                     {
                         "name": "Green Switch Palace Block #1",
                         "access_rules": [
+                            "carry, gsp, [powerup_3]",
                             "gsp, powerup_3"
                         ],
                         "visibility_rules": [
@@ -983,6 +990,7 @@
                     {
                         "name": "Green Switch Palace Block #2",
                         "access_rules": [
+                            "carry, gsp, [powerup_3]",
                             "gsp, powerup_3"
                         ],
                         "visibility_rules": [
@@ -995,6 +1003,7 @@
                     {
                         "name": "Green Switch Palace Block #3",
                         "access_rules": [
+                            "carry, gsp, [powerup_3]",
                             "gsp, powerup_3"
                         ],
                         "visibility_rules": [
@@ -1007,6 +1016,7 @@
                     {
                         "name": "Green Switch Palace Block #4",
                         "access_rules": [
+                            "carry, gsp, [powerup_3]",
                             "gsp, powerup_3"
                         ],
                         "visibility_rules": [
@@ -1019,6 +1029,7 @@
                     {
                         "name": "Green Switch Palace Block #5",
                         "access_rules": [
+                            "carry, gsp, [powerup_3]",
                             "gsp, powerup_3"
                         ],
                         "visibility_rules": [
@@ -1031,6 +1042,7 @@
                     {
                         "name": "Green Switch Palace Block #6",
                         "access_rules": [
+                            "carry, gsp, [powerup_3]",
                             "gsp, powerup_3"
                         ],
                         "visibility_rules": [
@@ -1043,6 +1055,7 @@
                     {
                         "name": "Green Switch Palace Block #7",
                         "access_rules": [
+                            "carry, gsp, [powerup_3]",
                             "gsp, powerup_3"
                         ],
                         "visibility_rules": [
@@ -1055,6 +1068,7 @@
                     {
                         "name": "Green Switch Palace Block #8",
                         "access_rules": [
+                            "carry, gsp, [powerup_3]",
                             "gsp, powerup_3"
                         ],
                         "visibility_rules": [
@@ -1067,6 +1081,7 @@
                     {
                         "name": "Green Switch Palace Block #9",
                         "access_rules": [
+                            "carry, gsp, [powerup_3]",
                             "gsp, powerup_3"
                         ],
                         "visibility_rules": [
@@ -1079,6 +1094,7 @@
                     {
                         "name": "Green Switch Palace Block #10",
                         "access_rules": [
+                            "carry, gsp, [powerup_3]",
                             "gsp, powerup_3"
                         ],
                         "visibility_rules": [
@@ -1091,6 +1107,7 @@
                     {
                         "name": "Green Switch Palace Block #11",
                         "access_rules": [
+                            "carry, gsp, [powerup_3]",
                             "gsp, powerup_3"
                         ],
                         "visibility_rules": [
@@ -1103,6 +1120,7 @@
                     {
                         "name": "Green Switch Palace Block #12",
                         "access_rules": [
+                            "carry, gsp, [powerup_3]",
                             "gsp, powerup_3"
                         ],
                         "visibility_rules": [
@@ -1115,6 +1133,7 @@
                     {
                         "name": "Green Switch Palace Block #13",
                         "access_rules": [
+                            "carry, gsp, [powerup_3]",
                             "gsp, powerup_3"
                         ],
                         "visibility_rules": [
@@ -1127,6 +1146,7 @@
                     {
                         "name": "Green Switch Palace Block #14",
                         "access_rules": [
+                            "carry, gsp, [powerup_3]",
                             "gsp, powerup_3"
                         ],
                         "visibility_rules": [
@@ -1139,6 +1159,7 @@
                     {
                         "name": "Green Switch Palace Block #15",
                         "access_rules": [
+                            "carry, gsp, [powerup_3]",
                             "gsp, powerup_3"
                         ],
                         "visibility_rules": [
@@ -1151,6 +1172,7 @@
                     {
                         "name": "Green Switch Palace Block #16",
                         "access_rules": [
+                            "carry, gsp, [powerup_3]",
                             "gsp, powerup_3"
                         ],
                         "visibility_rules": [
@@ -1233,7 +1255,7 @@
                         "name": "Secret Exit",
                         "access_rules": [
                             "carry, yoshi",
-                            "carry, spin_jump, climb, powerup_1"
+                            "carry, [spin_jump], climb, [powerup_1]"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -1363,7 +1385,7 @@
                     {
                         "name": "Vine Block #1",
                         "access_rules": [
-                            "carry, spin_jump, powerup_1",
+                            "carry, [spin_jump], [powerup_1]",
                             "yoshi"
                         ],
                         "visibility_rules": [
@@ -1409,7 +1431,7 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "spin_jump, powerup_1, climb",
+                            "[spin_jump], [powerup_1], climb",
                             "yoshi",
                             "powerup_3, run"
                         ],
@@ -1469,7 +1491,7 @@
                     {
                         "name": "Vine Block #1",
                         "access_rules": [
-                            "powerup_1, spin_jump"
+                            "[powerup_1], [spin_jump]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -1551,6 +1573,7 @@
                         ],
                         "name": "3-Up Moon",
                         "access_rules": [
+                            "[powerup_3], [run], yoshi, carry",
                             "powerup_3, run"
                         ],
                         "chest_unopened_img": "images/checks/moon_disabled.png",
@@ -1563,6 +1586,7 @@
                         ],
                         "name": "Hidden 1-Up",
                         "access_rules": [
+                            "[powerup_3], [run], yoshi, carry",
                             "powerup_3, run"
                         ],
                         "chest_unopened_img": "images/checks/hidden_disabled.png",
@@ -1735,7 +1759,8 @@
                     {
                         "name": "Powerup Block #3",
                         "access_rules": [
-                            "swim, p_balloon"
+                            "swim, p_balloon",
+                            "swim, [p_balloon], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -1747,7 +1772,8 @@
                     {
                         "name": "1-Up Mushroom Block #1",
                         "access_rules": [
-                            "swim, p_balloon"
+                            "swim, p_balloon",
+                            "swim, [p_balloon], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -1759,7 +1785,8 @@
                     {
                         "name": "Powerup Block #4",
                         "access_rules": [
-                            "swim, p_balloon"
+                            "swim, p_balloon",
+                            "swim, [p_balloon], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -1783,7 +1810,7 @@
                     {
                         "name": "Key Block #1",
                         "access_rules": [
-                            "swim, carry, p_switch"
+                            "swim, [carry], p_switch"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -1828,6 +1855,8 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
+                            "run, powerup_3, [climb]",
+                            "run, powerup_3, [yoshi]",
                             "climb",
                             "yoshi"
                         ],
@@ -1864,7 +1893,9 @@
                         "name": "Star Block #1",
                         "access_rules": [
                             "climb",
-                            "yoshi"
+                            "yoshi",
+                            "run, powerup_3, [climb]",
+                            "run, powerup_3, [yoshi]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -1934,6 +1965,7 @@
                         "name": "Secret Exit",
                         "access_rules": [
                             "climb",
+                            "[climb], spin_jump",
                             "powerup_3, run"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
@@ -2048,6 +2080,8 @@
                         ],
                         "name": "Secret Exit",
                         "access_rules": [
+                            "p_switch, carry, [climb], spin_jump",
+                            "p_switch, carry, [powerup_3], [run], spin_jump",
                             "p_switch, carry, climb",
                             "p_switch, carry, powerup_3, run"
                         ],
@@ -2094,7 +2128,7 @@
                     {
                         "name": "Vine Block #1",
                         "access_rules": [
-                            "p_switch"
+                            "[p_switch]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -2331,8 +2365,8 @@
                         ],
                         "name": "Normal Exit",
                         "access_rules": [
-                            "run, star",
-                            "run, powerup_1"
+                            "[run], [star]",
+                            "[run], [powerup_1]"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -2344,8 +2378,8 @@
                         ],
                         "name": "Secret Exit",
                         "access_rules": [
-                            "carry, yoshi, climb",
-                            "carry, yoshi, rsp",
+                            "carry, yoshi, [climb]",
+                            "carry, yoshi, [rsp]",
                             "carry, rsp, climb"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
@@ -2358,8 +2392,8 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "carry, run, star",
-                            "carry, run, powerup_1"
+                            "carry, [run], [star]",
+                            "carry, [run], [powerup_1]"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",
@@ -2441,6 +2475,8 @@
                     {
                         "name": "Vine Block #1",
                         "access_rules": [
+                            "[carry], yoshi",
+                            "[rsp], yoshi",
                             "carry",
                             "rsp"
                         ],
@@ -2466,8 +2502,8 @@
                     {
                         "name": "Powerup Block #4",
                         "access_rules": [
-                            "run, star",
-                            "run, powerup_1"
+                            "[run], [star]",
+                            "[run], [powerup_1]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -2479,8 +2515,8 @@
                     {
                         "name": "Coin Block #2",
                         "access_rules": [
-                            "run, star",
-                            "run, powerup_1"
+                            "[run], [star]",
+                            "[run], [powerup_1]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -2774,6 +2810,7 @@
                         ],
                         "name": "3-Up Moon",
                         "access_rules": [
+                            "[powerup_3], [run], yoshi, carry, special",
                             "powerup_3, run"
                         ],
                         "chest_unopened_img": "images/checks/moon_disabled.png",
@@ -2916,7 +2953,8 @@
                     {
                         "name": "P-Switch Coin Block #1",
                         "access_rules": [
-                            "run, powerup_3, p_switch"
+                            "run, powerup_3, p_switch",
+                            "[run], [powerup_3], yoshi, carry, special, p_switch"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -2928,7 +2966,8 @@
                     {
                         "name": "P-Switch Coin Block #2",
                         "access_rules": [
-                            "run, powerup_3, p_switch"
+                            "run, powerup_3, p_switch",
+                            "[run], [powerup_3], yoshi, carry, special, p_switch"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -2940,7 +2979,8 @@
                     {
                         "name": "P-Switch Coin Block #3",
                         "access_rules": [
-                            "run, powerup_3, p_switch"
+                            "run, powerup_3, p_switch",
+                            "[run], [powerup_3], yoshi, carry, special, p_switch"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -2952,7 +2992,8 @@
                     {
                         "name": "P-Switch Coin Block #4",
                         "access_rules": [
-                            "run, powerup_3, p_switch"
+                            "run, powerup_3, p_switch",
+                            "[run], [powerup_3], yoshi, carry, special, p_switch"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -2964,7 +3005,8 @@
                     {
                         "name": "P-Switch Coin Block #5",
                         "access_rules": [
-                            "run, powerup_3, p_switch"
+                            "run, powerup_3, p_switch",
+                            "[run], [powerup_3], yoshi, carry, special, p_switch"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -2976,7 +3018,8 @@
                     {
                         "name": "P-Switch Coin Block #6",
                         "access_rules": [
-                            "run, powerup_3, p_switch"
+                            "run, powerup_3, p_switch",
+                            "[run], [powerup_3], yoshi, carry, special, p_switch"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -3163,7 +3206,9 @@
                     {
                         "name": "Coin Block #8",
                         "access_rules": [
-                            "carry"
+                            "carry",
+                            "[carry], yoshi",
+                            "[carry], powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -3196,6 +3241,8 @@
                         ],
                         "name": "Normal Exit",
                         "access_rules": [
+                            "[climb], yoshi",
+                            "[climb], run, powerup_3",
                             "climb"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
@@ -3208,7 +3255,10 @@
                         ],
                         "name": "Secret Exit",
                         "access_rules": [
-                            "climb, carry, bsp"
+                            "climb, carry, bsp",
+                            "[climb], carry, bsp, yoshi",
+                            "[climb], carry, [bsp], yoshi, special",
+                            "[climb], [carry], [bsp], run, powerup_3"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -3220,6 +3270,8 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
+                            "[climb], carry, yoshi",
+                            "[climb], carry, run, powerup_3",
                             "climb, carry"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
@@ -3278,7 +3330,9 @@
                     {
                         "name": "Vine Block #2",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi",
+                            "[climb], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -3290,7 +3344,9 @@
                     {
                         "name": "Coin Block #2",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi",
+                            "[climb], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -3302,7 +3358,9 @@
                     {
                         "name": "Coin Block #3",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi",
+                            "[climb], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -3314,7 +3372,9 @@
                     {
                         "name": "Powerup Block #2",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi",
+                            "[climb], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -3359,7 +3419,7 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "powerup_3, run"
+                            "[powerup_3], [run]"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",
@@ -3381,8 +3441,8 @@
                     {
                         "name": "Green Switch Palace Block #1",
                         "access_rules": [
-                            "gsp, carry",
-                            "gsp, powerup_3"
+                            "gsp, [carry]",
+                            "gsp, [powerup_3]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -3535,7 +3595,7 @@
                         ],
                         "name": "Normal Exit",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -3547,7 +3607,7 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",
@@ -3557,7 +3617,7 @@
                     {
                         "name": "Powerup Block #1",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -3569,7 +3629,7 @@
                     {
                         "name": "Powerup Block #2",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -3614,7 +3674,8 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], spin_jump"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",
@@ -3804,8 +3865,8 @@
                     {
                         "name": "1-Up Mushroom Block #1",
                         "access_rules": [
-                            "carry",
-                            "poweurp_1"
+                            "[carry]",
+                            "[poweurp_1]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -3817,8 +3878,8 @@
                     {
                         "name": "1-Up Mushroom Block #2",
                         "access_rules": [
-                            "carry",
-                            "poweurp_1"
+                            "[carry]",
+                            "[poweurp_1]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -4056,7 +4117,8 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "powerup_3, run"
+                            "powerup_3, run",
+                            "[powerup_3], [run], yoshi, carry"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",
@@ -4066,7 +4128,7 @@
                     {
                         "name": "Powerup Block #1",
                         "access_rules": [
-                            "carry"
+                            "[carry]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -4090,7 +4152,8 @@
                     {
                         "name": "Yoshi Block #1",
                         "access_rules": [
-                            "carry"
+                            "carry",
+                            "[carry], poweurp_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -4123,7 +4186,8 @@
                         ],
                         "name": "Normal Exit",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -4136,7 +4200,7 @@
                         "name": "Secret Exit",
                         "access_rules": [
                             "powerup_3, run",
-                            "powerup_3, yoshi"
+                            "[powerup_3], yoshi"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -4163,7 +4227,7 @@
                         "name": "3-Up Moon",
                         "access_rules": [
                             "powerup_3, run",
-                            "powerup_3, yoshi"
+                            "[powerup_3], yoshi"
                         ],
                         "chest_unopened_img": "images/checks/moon_disabled.png",
                         "chest_opened_img": "images/checks/moon.png",
@@ -4254,7 +4318,9 @@
                         "name": "Dragon Coins",
                         "access_rules": [
                             "yoshi",
-                            "climb"
+                            "climb",
+                            "[yoshi], powerup_3, run",
+                            "[climb], powerup_3, run"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",
@@ -4399,7 +4465,11 @@
                         "name": "1-Up Mushroom Block #1",
                         "access_rules": [
                             "climb",
-                            "swim"
+                            "swim",
+                            "[climb], yoshi",
+                            "[swim], yoshi",
+                            "[climb], powerup_3, run",
+                            "[swim], powerup_3, run"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -4423,7 +4493,7 @@
                     {
                         "name": "Yoshi Block #1",
                         "access_rules": [
-                            "rsp"
+                            "[rsp]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -4829,7 +4899,8 @@
                         ],
                         "name": "Secret Exit",
                         "access_rules": [
-                            "carry, p_balloon"
+                            "carry, p_balloon",
+                            "carry, yoshi, [p_balloon]"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -4874,7 +4945,8 @@
                     {
                         "name": "Key Block #1",
                         "access_rules": [
-                            "p_balloon"
+                            "p_balloon",
+                            "[p_balloon], yoshi"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5059,7 +5131,9 @@
                         "name": "Normal Exit",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -5071,7 +5145,8 @@
                         ],
                         "name": "Secret Exit",
                         "access_rules": [
-                            "powerup_1, spin_jump, carry"
+                            "powerup_1, spin_jump, carry",
+                            "[powerup_1], [spin_jump], carry, yoshi"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -5083,8 +5158,10 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
+                            "carry",
                             "yoshi",
-                            "carry"
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",
@@ -5097,7 +5174,10 @@
                         ],
                         "name": "Hidden 1-Up",
                         "access_rules": [
-                            ""
+                            "carry",
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "chest_unopened_img": "images/checks/hidden_disabled.png",
                         "chest_opened_img": "images/checks/hidden.png",
@@ -5143,7 +5223,9 @@
                         "name": "Coin Block #2",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], poweurp_1",
+                            "[yoshi], poweurp_1"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5156,7 +5238,9 @@
                         "name": "Multi Coin Block #2",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5169,7 +5253,9 @@
                         "name": "Coin Block #3",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5182,7 +5268,9 @@
                         "name": "Coin Block #4",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5195,7 +5283,9 @@
                         "name": "Coin Block #5",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5208,7 +5298,9 @@
                         "name": "Coin Block #6",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5221,7 +5313,9 @@
                         "name": "Coin Block #7",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5234,7 +5328,9 @@
                         "name": "Coin Block #8",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5247,7 +5343,9 @@
                         "name": "Coin Block #9",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5260,7 +5358,9 @@
                         "name": "Coin Block #10",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5273,7 +5373,9 @@
                         "name": "Coin Block #11",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5286,7 +5388,9 @@
                         "name": "Coin Block #12",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5299,7 +5403,9 @@
                         "name": "Coin Block #13",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5312,7 +5418,9 @@
                         "name": "Coin Block #14",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5325,7 +5433,9 @@
                         "name": "Coin Block #15",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5338,7 +5448,9 @@
                         "name": "Coin Block #16",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5351,7 +5463,9 @@
                         "name": "Coin Block #17",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5364,7 +5478,9 @@
                         "name": "Coin Block #18",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5377,7 +5493,9 @@
                         "name": "Coin Block #19",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5390,7 +5508,9 @@
                         "name": "Coin Block #20",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5403,7 +5523,9 @@
                         "name": "Coin Block #21",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5416,7 +5538,9 @@
                         "name": "Coin Block #22",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5429,7 +5553,9 @@
                         "name": "Coin Block #23",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5442,7 +5568,9 @@
                         "name": "Coin Block #24",
                         "access_rules": [
                             "carry",
-                            "yoshi"
+                            "yoshi",
+                            "[carry], run, powerup_3",
+                            "[yoshi], run, powerup_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -5862,8 +5990,7 @@
                     {
                         "name": "1-Up Mushroom Block #1",
                         "access_rules": [
-                            "bsp",
-                            "carry"
+                            "[bsp]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -6143,7 +6270,9 @@
                         ],
                         "name": "Normal Exit",
                         "access_rules": [
-                            "p_switch"
+                            "p_switch",
+                            "[p_switch], powerup_1",
+                            "[p_switch], yoshi"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -6155,7 +6284,9 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "swim"
+                            "p_switch",
+                            "[p_switch], powerup_1",
+                            "[p_switch], yoshi"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",
@@ -6168,7 +6299,8 @@
                         ],
                         "name": "3-Up Moon",
                         "access_rules": [
-                            "powerup_3, run"
+                            "powerup_3, run",
+                            "yoshi"
                         ],
                         "chest_unopened_img": "images/checks/moon_disabled.png",
                         "chest_opened_img": "images/checks/moon.png",
@@ -6177,7 +6309,9 @@
                     {
                         "name": "Flying Question Block #1",
                         "access_rules": [
-                            "p_switch"
+                            "p_switch",
+                            "[p_switch], powerup_1",
+                            "[p_switch], yoshi"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -6189,7 +6323,9 @@
                     {
                         "name": "Flying Question Block #2",
                         "access_rules": [
-                            "p_switch"
+                            "p_switch",
+                            "[p_switch], powerup_1",
+                            "[p_switch], yoshi"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -6201,7 +6337,9 @@
                     {
                         "name": "Yoshi Block #1",
                         "access_rules": [
-                            "p_switch"
+                            "p_switch",
+                            "[p_switch], powerup_1",
+                            "[p_switch], yoshi"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -6213,10 +6351,18 @@
                     {
                         "name": "Green|Yellow Switch Palace Block #1",
                         "access_rules": [
-                            "gsp, bsp",
-                            "gsp, powerup_3",
-                            "ysp, bsp",
-                            "ysp, poweurp_3"
+                            "p_switch, gsp, bsp",
+                            "[p_switch], powerup_1, gsp, bsp",
+                            "[p_switch], yoshi, gsp, bsp",
+                            "p_switch, gsp, poweurp_3",
+                            "[p_switch], powerup_1, gsp, poweurp_3",
+                            "[p_switch], yoshi, gsp, poweurp_3",
+                            "p_switch, ysp, bsp",
+                            "[p_switch], powerup_1, ysp, bsp",
+                            "[p_switch], yoshi, ysp, bsp",
+                            "p_switch, ysp, poweurp_3",
+                            "[p_switch], powerup_1, ysp, poweurp_3",
+                            "[p_switch], yoshi, ysp, poweurp_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -6228,7 +6374,9 @@
                     {
                         "name": "1-Up Mushroom Block #1",
                         "access_rules": [
-                            "p_switch"
+                            "p_switch",
+                            "[p_switch], powerup_1",
+                            "[p_switch], yoshi"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -6287,8 +6435,13 @@
                         "access_rules": [
                             "bsp, p_switch",
                             "bsp, gsp",
-                            "bsp, ysp",
-                            "bsp, rsp"
+                            "bsp, ysp, rsp",
+                            "[bsp], p_switch, rsp",
+                            "[bsp], p_switch, ysp",
+                            "[bsp], p_switch, yoshi",
+                            "[bsp], ysp, rsp, yoshi",
+                            "[bsp], gsp, rsp, yoshi",
+                            "[bsp], run, poweurp_3"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",
@@ -6524,7 +6677,9 @@
                         "name": "Normal Exit",
                         "access_rules": [
                             "climb",
-                            "powerup_3, run"
+                            "powerup_3, run",
+                            "[climb], yoshi, carry",
+                            "[run], [powerup_3], yoshi, carry"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -6536,7 +6691,8 @@
                         ],
                         "name": "Secret Exit",
                         "access_rules": [
-                            "powerup_3, run"
+                            "powerup_3, run",
+                            "[run], [powerup_3], yoshi, carry"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -6642,7 +6798,8 @@
                     {
                         "name": "1-Up Mushroom Block #1",
                         "access_rules": [
-                            "run, powerup_3"
+                            "run, powerup_3",
+                            "[run], [powerup_3], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -6654,7 +6811,8 @@
                     {
                         "name": "1-Up Mushroom Block #2",
                         "access_rules": [
-                            "run, powerup_3"
+                            "run, powerup_3",
+                            "[run], [powerup_3], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -6666,7 +6824,8 @@
                     {
                         "name": "1-Up Mushroom Block #3",
                         "access_rules": [
-                            "run, powerup_3"
+                            "run, powerup_3",
+                            "[run], [powerup_3], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -6709,7 +6868,7 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "p_switch, powerup_3"
+                            "p_switch, [powerup_3]"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",
@@ -6788,7 +6947,6 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "swim",
                             "carry, p_switch"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
@@ -6836,7 +6994,7 @@
                     {
                         "name": "Yellow Switch Palace Block #1",
                         "access_rules": [
-                            "ysp, p_switch"
+                            "ysp, carry, p_switch"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -6935,7 +7093,7 @@
                         ],
                         "name": "Normal Exit",
                         "access_rules": [
-                            "run"
+                            "[run]"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -6956,7 +7114,7 @@
                     {
                         "name": "Powerup Block #2",
                         "access_rules": [
-                            ""
+                            "[run]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -7100,7 +7258,7 @@
                     {
                         "name": "Yellow Switch Palace Block #1",
                         "access_rules": [
-                            "ysp"
+                            "ysp, powerup_1"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -7112,7 +7270,7 @@
                     {
                         "name": "Yellow Switch Palace Block #2",
                         "access_rules": [
-                            "ysp"
+                            "ysp, powerup_1"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -7124,7 +7282,7 @@
                     {
                         "name": "Green Switch Palace Block #1",
                         "access_rules": [
-                            "gsp"
+                            "gsp, powerup_1"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -7179,7 +7337,7 @@
                     {
                         "name": "Powerup Block #1",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -7569,7 +7727,8 @@
                         ],
                         "name": "Normal Exit",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -7626,7 +7785,8 @@
                     {
                         "name": "Yoshi Block #1",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -7638,7 +7798,8 @@
                     {
                         "name": "1-Up Mushroom Block #1",
                         "access_rules": [
-                            "powerup_1, spin_jump, climb"
+                            "powerup_1, spin_jump, climb",
+                            "powerup_1, spin_jump, [climb], yoshi"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -7650,7 +7811,8 @@
                     {
                         "name": "Powerup Block #2",
                         "access_rules": [
-                            "ysp, climb"
+                            "[ysp], climb",
+                            "[ysp], yoshi, [climb]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -7695,7 +7857,7 @@
                         ],
                         "name": "Secret Exit",
                         "access_rules": [
-                            "p_switch, carry, run"
+                            "p_switch, carry, [run]"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -8061,7 +8223,8 @@
                     {
                         "name": "Key Block #1",
                         "access_rules": [
-                            "carry"
+                            "carry",
+                            "powerup_2"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8107,7 +8270,9 @@
                         "name": "Secret Exit",
                         "access_rules": [
                             "carry, yoshi",
-                            "carry, gsp, rsp"
+                            "carry, gsp, rsp",
+                            "carry, [yoshi], run, powerup_3",
+                            "carry, [gsp], [rsp], run, powerup_3"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -8128,7 +8293,8 @@
                     {
                         "name": "Green Switch Palace Block #1",
                         "access_rules": [
-                            "gsp, yoshi, carry"
+                            "gsp, yoshi, carry",
+                            "gsp, [yoshi], [carry], run, powerup_3, spin_jump"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8140,7 +8306,8 @@
                     {
                         "name": "Green Switch Palace Block #2",
                         "access_rules": [
-                            "gsp, yoshi, carry"
+                            "gsp, yoshi, carry",
+                            "gsp, [yoshi], [carry], run, powerup_3, spin_jump"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8152,7 +8319,8 @@
                     {
                         "name": "Green Switch Palace Block #3",
                         "access_rules": [
-                            "gsp, yoshi, carry"
+                            "gsp, yoshi, carry",
+                            "gsp, [yoshi], [carry], run, powerup_3, spin_jump"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8164,7 +8332,8 @@
                     {
                         "name": "Green Switch Palace Block #4",
                         "access_rules": [
-                            "gsp, yoshi, carry"
+                            "gsp, yoshi, carry",
+                            "gsp, [yoshi], [carry], run, powerup_3, spin_jump"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8176,7 +8345,8 @@
                     {
                         "name": "Green Switch Palace Block #5",
                         "access_rules": [
-                            "gsp, yoshi, carry"
+                            "gsp, yoshi, carry",
+                            "gsp, [yoshi], [carry], run, powerup_3, spin_jump"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8188,7 +8358,8 @@
                     {
                         "name": "Green Switch Palace Block #6",
                         "access_rules": [
-                            "gsp, yoshi, carry"
+                            "gsp, yoshi, carry",
+                            "gsp, [yoshi], [carry], run, powerup_3, spin_jump"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8200,7 +8371,8 @@
                     {
                         "name": "Green Switch Palace Block #7",
                         "access_rules": [
-                            "gsp, yoshi, carry"
+                            "gsp, yoshi, carry",
+                            "gsp, [yoshi], [carry], run, powerup_3, spin_jump"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8213,7 +8385,9 @@
                         "name": "Key Block #1",
                         "access_rules": [
                             "carry, yoshi",
-                            "gsp, rsp, carry"
+                            "gsp, rsp, carry",
+                            "[carry], [yoshi], run, powerup_3",
+                            "[carry], [gsp], [rsp], run, poweurp_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8246,7 +8420,9 @@
                         ],
                         "name": "Normal Exit",
                         "access_rules": [
-                            "p_switch"
+                            "p_switch",
+                            "[p_switch], yoshi, carry, [special]",
+                            "[p_switch], run, powerup_3"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -8258,7 +8434,9 @@
                         ],
                         "name": "Secret Exit",
                         "access_rules": [
-                            "carry, climb, p_switch, ysp, gsp, rsp, bsp"
+                            "carry, climb, p_switch, ysp, gsp, rsp, bsp",
+                            "carry, [climb], [p_switch], [ysp], [gsp], [rsp], [bsp], yoshi, [special]",
+                            "carry, [climb], [p_switch], [ysp], [gsp], [rsp], [bsp], run, powerup_3"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -8279,7 +8457,8 @@
                     {
                         "name": "1-Up Mushroom Block #1",
                         "access_rules": [
-                            "p_switch"
+                            "p_switch",
+                            "[p_switch], [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8291,7 +8470,8 @@
                     {
                         "name": "Vine Block #1",
                         "access_rules": [
-                            "p_switch"
+                            "p_switch",
+                            "[p_switch], [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8304,7 +8484,7 @@
                         "name": "Yellow Switch Palace Block #1",
                         "access_rules": [
                             "ysp, p_switch, climb, carry",
-                            "ysp, special, yoshi, carry"
+                            "ysp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8316,7 +8496,7 @@
                     {
                         "name": "Yellow Switch Palace Block #2",
                         "access_rules": [
-                            "ysp, special, yoshi, carry"
+                            "ysp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8328,7 +8508,7 @@
                     {
                         "name": "Yellow Switch Palace Block #3",
                         "access_rules": [
-                            "ysp, special, yoshi, carry"
+                            "ysp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8340,7 +8520,7 @@
                     {
                         "name": "Yellow Switch Palace Block #4",
                         "access_rules": [
-                            "ysp, special, yoshi, carry"
+                            "ysp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8352,7 +8532,7 @@
                     {
                         "name": "Yellow Switch Palace Block #5",
                         "access_rules": [
-                            "ysp, special, yoshi, carry"
+                            "ysp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8364,7 +8544,7 @@
                     {
                         "name": "Yellow Switch Palace Block #6",
                         "access_rules": [
-                            "ysp, special, yoshi, carry"
+                            "ysp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8376,7 +8556,7 @@
                     {
                         "name": "Yellow Switch Palace Block #7",
                         "access_rules": [
-                            "ysp, special, yoshi, carry"
+                            "ysp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8388,7 +8568,7 @@
                     {
                         "name": "Yellow Switch Palace Block #8",
                         "access_rules": [
-                            "ysp, special, yoshi, carry"
+                            "ysp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8400,7 +8580,7 @@
                     {
                         "name": "Yellow Switch Palace Block #9",
                         "access_rules": [
-                            "ysp, special, yoshi, carry"
+                            "ysp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8412,7 +8592,7 @@
                     {
                         "name": "Yellow Switch Palace Block #10",
                         "access_rules": [
-                            "ysp, special, yoshi, carry"
+                            "ysp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8424,7 +8604,7 @@
                     {
                         "name": "Yellow Switch Palace Block #11",
                         "access_rules": [
-                            "ysp, special, yoshi, carry"
+                            "ysp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8436,7 +8616,7 @@
                     {
                         "name": "Yellow Switch Palace Block #12",
                         "access_rules": [
-                            "ysp, special, yoshi, carry"
+                            "ysp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8448,7 +8628,7 @@
                     {
                         "name": "Yellow Switch Palace Block #13",
                         "access_rules": [
-                            "ysp, special, yoshi, carry"
+                            "ysp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8460,7 +8640,7 @@
                     {
                         "name": "Yellow Switch Palace Block #14",
                         "access_rules": [
-                            "ysp, special, yoshi, carry"
+                            "ysp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8472,7 +8652,7 @@
                     {
                         "name": "Yellow Switch Palace Block #15",
                         "access_rules": [
-                            "ysp, special, yoshi, carry"
+                            "ysp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8484,7 +8664,7 @@
                     {
                         "name": "Yellow Switch Palace Block #16",
                         "access_rules": [
-                            "ysp, special, yoshi, carry"
+                            "ysp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8496,7 +8676,7 @@
                     {
                         "name": "Yellow Switch Palace Block #17",
                         "access_rules": [
-                            "ysp, special, yoshi, carry"
+                            "ysp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8508,7 +8688,7 @@
                     {
                         "name": "Yellow Switch Palace Block #18",
                         "access_rules": [
-                            "ysp, special, yoshi, carry"
+                            "ysp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8520,7 +8700,7 @@
                     {
                         "name": "Yellow Switch Palace Block #19",
                         "access_rules": [
-                            "ysp, gsp, yoshi, carry",
+                            "ysp, gsp, [special], yoshi, carry",
                             "ysp, gsp, p_switch, climb, carry, powerup_3"
                         ],
                         "visibility_rules": [
@@ -8533,7 +8713,7 @@
                     {
                         "name": "Yellow Switch Palace Block #20",
                         "access_rules": [
-                            "ysp, gsp, yoshi, carry",
+                            "ysp, gsp, [special], yoshi, carry",
                             "ysp, gsp, p_switch, climb, carry, powerup_3"
                         ],
                         "visibility_rules": [
@@ -8546,7 +8726,7 @@
                     {
                         "name": "Green Switch Palace Block #1",
                         "access_rules": [
-                            "gsp, special, yoshi, carry"
+                            "gsp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8558,7 +8738,7 @@
                     {
                         "name": "Green Switch Palace Block #2",
                         "access_rules": [
-                            "gsp, special, yoshi, carry"
+                            "gsp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8570,7 +8750,7 @@
                     {
                         "name": "Green Switch Palace Block #3",
                         "access_rules": [
-                            "gsp, special, yoshi, carry"
+                            "gsp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8582,7 +8762,7 @@
                     {
                         "name": "Green Switch Palace Block #4",
                         "access_rules": [
-                            "gsp, special, yoshi, carry"
+                            "gsp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8594,7 +8774,7 @@
                     {
                         "name": "Green Switch Palace Block #5",
                         "access_rules": [
-                            "gsp, special, yoshi, carry"
+                            "gsp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8606,7 +8786,7 @@
                     {
                         "name": "Green Switch Palace Block #6",
                         "access_rules": [
-                            "gsp, special, yoshi, carry"
+                            "gsp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8618,7 +8798,7 @@
                     {
                         "name": "Green Switch Palace Block #7",
                         "access_rules": [
-                            "gsp, special, yoshi, carry"
+                            "gsp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8630,7 +8810,7 @@
                     {
                         "name": "Green Switch Palace Block #8",
                         "access_rules": [
-                            "gsp, special, yoshi, carry"
+                            "gsp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8642,7 +8822,7 @@
                     {
                         "name": "Green Switch Palace Block #9",
                         "access_rules": [
-                            "gsp, special, yoshi, carry"
+                            "gsp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8654,7 +8834,7 @@
                     {
                         "name": "Green Switch Palace Block #10",
                         "access_rules": [
-                            "gsp, special, yoshi, carry"
+                            "gsp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8666,7 +8846,7 @@
                     {
                         "name": "Green Switch Palace Block #11",
                         "access_rules": [
-                            "gsp, special, yoshi, carry"
+                            "gsp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8678,7 +8858,7 @@
                     {
                         "name": "Green Switch Palace Block #12",
                         "access_rules": [
-                            "gsp, special, yoshi, carry"
+                            "gsp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8690,7 +8870,7 @@
                     {
                         "name": "Green Switch Palace Block #13",
                         "access_rules": [
-                            "gsp, special, yoshi, carry"
+                            "gsp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8702,7 +8882,7 @@
                     {
                         "name": "Green Switch Palace Block #14",
                         "access_rules": [
-                            "gsp, special, yoshi, carry"
+                            "gsp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8714,7 +8894,7 @@
                     {
                         "name": "Green Switch Palace Block #15",
                         "access_rules": [
-                            "gsp, special, yoshi, carry"
+                            "gsp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8726,7 +8906,7 @@
                     {
                         "name": "Green Switch Palace Block #16",
                         "access_rules": [
-                            "gsp, special, yoshi, carry"
+                            "gsp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8738,7 +8918,7 @@
                     {
                         "name": "Green Switch Palace Block #17",
                         "access_rules": [
-                            "gsp, special, yoshi, carry"
+                            "gsp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8750,7 +8930,7 @@
                     {
                         "name": "Green Switch Palace Block #18",
                         "access_rules": [
-                            "gsp, special, yoshi, carry"
+                            "gsp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8762,7 +8942,7 @@
                     {
                         "name": "Green Switch Palace Block #19",
                         "access_rules": [
-                            "gsp, special, yoshi, carry"
+                            "gsp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8774,7 +8954,7 @@
                     {
                         "name": "Green Switch Palace Block #20",
                         "access_rules": [
-                            "gsp, special, yoshi, carry"
+                            "gsp, [special], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8808,7 +8988,9 @@
                         "name": "Normal Exit",
                         "access_rules": [
                             "climb, p_switch",
-                            "climb, run, powerup_3"
+                            "climb, run, powerup_3",
+                            "[climb], p_switch, yoshi, carry",
+                            "[climb], run, powerup_3, yoshi, carry"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -8820,7 +9002,8 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi, carry"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",
@@ -8833,7 +9016,8 @@
                         ],
                         "name": "Hidden 1-Up",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi, carry"
                         ],
                         "chest_unopened_img": "images/checks/hidden_disabled.png",
                         "chest_opened_img": "images/checks/hidden.png",
@@ -8890,7 +9074,8 @@
                     {
                         "name": "1-Up Mushroom Block #1",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8902,7 +9087,8 @@
                     {
                         "name": "Vine Block #5",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8914,7 +9100,8 @@
                     {
                         "name": "Blue P-Switch Block #1",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8926,7 +9113,8 @@
                     {
                         "name": "Vine Block #6",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8938,7 +9126,8 @@
                     {
                         "name": "Powerup Block #1",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8950,7 +9139,8 @@
                     {
                         "name": "P-Switch Coin Block #1",
                         "access_rules": [
-                            "climb, p_switch, powerup_3"
+                            "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8962,7 +9152,8 @@
                     {
                         "name": "P-Switch Coin Block #2",
                         "access_rules": [
-                            "climb, p_switch, powerup_3"
+                            "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8974,7 +9165,8 @@
                     {
                         "name": "P-Switch Coin Block #3",
                         "access_rules": [
-                            "climb, p_switch, powerup_3"
+                            "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8986,7 +9178,8 @@
                     {
                         "name": "P-Switch Coin Block #4",
                         "access_rules": [
-                            "climb, p_switch, powerup_3"
+                            "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -8998,7 +9191,8 @@
                     {
                         "name": "P-Switch Coin Block #5",
                         "access_rules": [
-                            "climb, p_switch, powerup_3"
+                            "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9010,7 +9204,8 @@
                     {
                         "name": "P-Switch Coin Block #6",
                         "access_rules": [
-                            "climb, p_switch, powerup_3"
+                            "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9022,7 +9217,8 @@
                     {
                         "name": "P-Switch Coin Block #7",
                         "access_rules": [
-                            "climb, p_switch, powerup_3"
+                            "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9034,7 +9230,8 @@
                     {
                         "name": "P-Switch Coin Block #8",
                         "access_rules": [
-                            "climb, p_switch, powerup_3"
+                            "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9046,7 +9243,8 @@
                     {
                         "name": "P-Switch Coin Block #9",
                         "access_rules": [
-                            "climb, p_switch, powerup_3"
+                            "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9059,6 +9257,7 @@
                         "name": "P-Switch Coin Block #10",
                         "access_rules": [
                             "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry",
                             "climb, p_switch, carry"
                         ],
                         "visibility_rules": [
@@ -9072,6 +9271,7 @@
                         "name": "P-Switch Coin Block #11",
                         "access_rules": [
                             "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry",
                             "climb, p_switch, carry"
                         ],
                         "visibility_rules": [
@@ -9085,6 +9285,7 @@
                         "name": "P-Switch Coin Block #12",
                         "access_rules": [
                             "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry",
                             "climb, p_switch, carry"
                         ],
                         "visibility_rules": [
@@ -9098,6 +9299,7 @@
                         "name": "P-Switch Coin Block #13",
                         "access_rules": [
                             "climb, p_switch, powerup_3",
+                            "[climb], p_switch, yoshi, carry",
                             "climb, p_switch, carry"
                         ],
                         "visibility_rules": [
@@ -9374,7 +9576,7 @@
                         ],
                         "name": "Normal Exit",
                         "access_rules": [
-                            "powerup_2",
+                            "[powerup_2]",
                             "star"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
@@ -9387,7 +9589,7 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "powerup_2",
+                            "[powerup_2]",
                             "star"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
@@ -9398,7 +9600,7 @@
                     {
                         "name": "Powerup Block #1",
                         "access_rules": [
-                            "powerup_2"
+                            "[powerup_2]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9410,8 +9612,8 @@
                     {
                         "name": "Star Block #1",
                         "access_rules": [
-                            "powerup_2, carry",
-                            "powerup_2, p_switch"
+                            "[powerup_2], carry",
+                            "[powerup_2], p_switch"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9444,7 +9646,7 @@
                         ],
                         "name": "Normal Exit",
                         "access_rules": [
-                            "powerup_1"
+                            "[powerup_1]"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -9456,7 +9658,7 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "powerup_1"
+                            "[powerup_1]"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",
@@ -9499,7 +9701,7 @@
                         ],
                         "name": "Normal Exit",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -9511,7 +9713,7 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",
@@ -9521,7 +9723,7 @@
                     {
                         "name": "Powerup Block #1",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9533,7 +9735,7 @@
                     {
                         "name": "Coin Block #1",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9545,7 +9747,7 @@
                     {
                         "name": "Coin Block #2",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9557,7 +9759,7 @@
                     {
                         "name": "Yoshi Block #1",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9581,7 +9783,7 @@
                     {
                         "name": "Multi Coin Block #1",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9593,7 +9795,7 @@
                     {
                         "name": "Coin Block #3",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9605,7 +9807,7 @@
                     {
                         "name": "Coin Block #4",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9617,7 +9819,7 @@
                     {
                         "name": "Coin Block #5",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9629,7 +9831,7 @@
                     {
                         "name": "Coin Block #6",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9641,7 +9843,7 @@
                     {
                         "name": "Coin Block #7",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9653,7 +9855,7 @@
                     {
                         "name": "Coin Block #8",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9665,7 +9867,7 @@
                     {
                         "name": "Coin Block #9",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9677,7 +9879,7 @@
                     {
                         "name": "Coin Block #10",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9689,7 +9891,7 @@
                     {
                         "name": "Coin Block #11",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9701,7 +9903,7 @@
                     {
                         "name": "Coin Block #12",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9713,7 +9915,7 @@
                     {
                         "name": "Coin Block #13",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9725,7 +9927,7 @@
                     {
                         "name": "Coin Block #14",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9737,7 +9939,7 @@
                     {
                         "name": "Coin Block #15",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9749,7 +9951,7 @@
                     {
                         "name": "Coin Block #16",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9761,7 +9963,7 @@
                     {
                         "name": "Coin Block #17",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9773,7 +9975,7 @@
                     {
                         "name": "Coin Block #18",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9785,7 +9987,7 @@
                     {
                         "name": "Coin Block #19",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9797,7 +9999,7 @@
                     {
                         "name": "Coin Block #20",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9809,7 +10011,7 @@
                     {
                         "name": "Coin Block #21",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9821,7 +10023,7 @@
                     {
                         "name": "Coin Block #22",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9833,7 +10035,7 @@
                     {
                         "name": "Coin Block #23",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9845,7 +10047,7 @@
                     {
                         "name": "Coin Block #24",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9857,7 +10059,7 @@
                     {
                         "name": "Coin Block #25",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9869,7 +10071,7 @@
                     {
                         "name": "Coin Block #26",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9881,7 +10083,7 @@
                     {
                         "name": "Coin Block #27",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9893,7 +10095,7 @@
                     {
                         "name": "Coin Block #28",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9905,7 +10107,7 @@
                     {
                         "name": "Powerup Block #2",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9917,7 +10119,7 @@
                     {
                         "name": "Coin Block #29",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9929,7 +10131,7 @@
                     {
                         "name": "Coin Block #30",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9941,7 +10143,7 @@
                     {
                         "name": "Coin Block #31",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9953,7 +10155,7 @@
                     {
                         "name": "Coin Block #32",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9965,7 +10167,7 @@
                     {
                         "name": "Coin Block #33",
                         "access_rules": [
-                            "swim"
+                            "[swim]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -9998,7 +10200,7 @@
                         ],
                         "name": "Normal Exit",
                         "access_rules": [
-                            "powerup_1"
+                            "[powerup_1]"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -10010,7 +10212,7 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "powerup_1"
+                            "[powerup_1]"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",
@@ -10020,7 +10222,7 @@
                     {
                         "name": "Powerup Block #1",
                         "access_rules": [
-                            "powerup_1"
+                            "[powerup_1]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -10032,7 +10234,7 @@
                     {
                         "name": "Yoshi Block #1",
                         "access_rules": [
-                            "powerup_1"
+                            "[powerup_1]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -10044,7 +10246,7 @@
                     {
                         "name": "Coin Block #1",
                         "access_rules": [
-                            "powerup_1"
+                            "[powerup_1]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -10056,7 +10258,7 @@
                     {
                         "name": "Powerup Block #2",
                         "access_rules": [
-                            "powerup_1"
+                            "[powerup_1]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -10068,7 +10270,7 @@
                     {
                         "name": "Coin Block #2",
                         "access_rules": [
-                            "powerup_1"
+                            "[powerup_1]"
                         ],
                         "visibility_rules": [
                             "blocksanity"

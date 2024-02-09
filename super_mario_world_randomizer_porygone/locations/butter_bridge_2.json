@@ -40,7 +40,8 @@
                         ],
                         "name": "Dragon Coins",
                         "access_rules": [
-                            "powerup_3, run"
+                            "powerup_3, run",
+                            "[powerup_3], [run], yoshi, carry"
                         ],
                         "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
                         "chest_opened_img": "images/checks/dragon_coin.png",
@@ -83,7 +84,7 @@
                     {
                         "name": "Powerup Block #1",
                         "access_rules": [
-                            "carry"
+                            "[carry]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -131,7 +132,8 @@
                     {
                         "name": "Yoshi Block #1",
                         "access_rules": [
-                            "carry"
+                            "carry",
+                            "[carry], poweurp_3"
                         ],
                         "visibility_rules": [
                             "blocksanity"

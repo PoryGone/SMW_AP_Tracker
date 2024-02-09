@@ -16,7 +16,8 @@
                         ],
                         "name": "Normal Exit",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
@@ -134,7 +135,8 @@
                     {
                         "name": "Yoshi Block #1",
                         "access_rules": [
-                            "climb"
+                            "climb",
+                            "[climb], yoshi"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -158,7 +160,8 @@
                     {
                         "name": "1-Up Mushroom Block #1",
                         "access_rules": [
-                            "powerup_1, spin_jump, climb"
+                            "powerup_1, spin_jump, climb",
+                            "powerup_1, spin_jump, [climb], yoshi"
                         ],
                         "visibility_rules": [
                             "blocksanity"
@@ -182,7 +185,8 @@
                     {
                         "name": "Powerup Block #2",
                         "access_rules": [
-                            "ysp, climb"
+                            "[ysp], climb",
+                            "[ysp], yoshi, [climb]"
                         ],
                         "visibility_rules": [
                             "blocksanity"
