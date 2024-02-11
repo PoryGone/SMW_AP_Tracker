@@ -1,0 +1,152 @@
+[
+    {
+        "name": "Chocolate Island 4",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Chocolate Island 4 - Goal",
+                "map_locations": [
+                    {
+                        "map": "ci4_main",
+                        "x": 1512,
+                        "y": 808
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "dragon_coin_checks"
+                        ],
+                        "name": "Dragon Coins",
+                        "access_rules": [
+                            "p_switch, [powerup_3]"
+                        ],
+                        "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
+                        "chest_opened_img": "images/checks/dragon_coin.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "name": "Chocolate Island 4 - Dragon Coin",
+                "map_locations": [
+                    {
+                        "map": "ci4_main",
+                        "x": 904,
+                        "y": 208
+                    },
+                    {
+                        "map": "ci4_main",
+                        "x": 1592,
+                        "y": 96
+                    },
+                    {
+                        "map": "ci4_main",
+                        "x": 152,
+                        "y": 736
+                    },
+                    {
+                        "map": "ci4_main",
+                        "x": 344,
+                        "y": 608
+                    },
+                    {
+                        "map": "ci4_sub_vert",
+                        "x": 456,
+                        "y": 752
+                    }
+                ]
+            },
+            {
+                "name": "Chocolate Island 4 - Blocksanity - Yellow Switch Palace Block #1",
+                "sections": [
+                    {
+                        "name": "Yellow Switch Palace Block #1",
+                        "access_rules": [
+                            "ysp, bsp"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ci4_main",
+                        "x": 1800,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "Chocolate Island 4 - Blocksanity - Blue P-Switch Block #1",
+                "sections": [
+                    {
+                        "name": "Blue P-Switch Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ci4_main",
+                        "x": 296,
+                        "y": 600
+                    }
+                ]
+            },
+            {
+                "name": "Chocolate Island 4 - Blocksanity - Powerup Block #1",
+                "sections": [
+                    {
+                        "name": "Powerup Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ci4_main",
+                        "x": 856,
+                        "y": 504
+                    }
+                ]
+            }
+        ]
+    }
+]

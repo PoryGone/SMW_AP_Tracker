@@ -1,0 +1,183 @@
+[
+    {
+        "name": "Forest of Illusion 1",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Forest of Illusion 1 - Goal",
+                "map_locations": [
+                    {
+                        "map": "foi1_main",
+                        "x": 744,
+                        "y": 1240
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Secret Exit",
+                        "access_rules": [
+                            "carry, p_balloon",
+                            "carry, yoshi, [p_balloon]"
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Forest of Illusion 1 - Keyhole",
+                "map_locations": [
+                    {
+                        "map": "foi1_main",
+                        "x": 1528,
+                        "y": 824
+                    }
+                ]
+            },
+            {
+                "name": "Forest of Illusion 1 - Blocksanity - Powerup Block #1",
+                "sections": [
+                    {
+                        "name": "Powerup Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "foi1_main",
+                        "x": 424,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Forest of Illusion 1 - Blocksanity - Yoshi Block #1",
+                "sections": [
+                    {
+                        "name": "Yoshi Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "foi1_main",
+                        "x": 872,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Forest of Illusion 1 - Blocksanity - Powerup Block #2",
+                "sections": [
+                    {
+                        "name": "Powerup Block #2",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "foi1_main",
+                        "x": 1960,
+                        "y": 776
+                    }
+                ]
+            },
+            {
+                "name": "Forest of Illusion 1 - Blocksanity - Key Block #1",
+                "sections": [
+                    {
+                        "name": "Key Block #1",
+                        "access_rules": [
+                            "p_balloon",
+                            "[p_balloon], yoshi"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "foi1_main",
+                        "x": 1544,
+                        "y": 792
+                    }
+                ]
+            },
+            {
+                "name": "Forest of Illusion 1 - Blocksanity - 1-Up Mushroom Block #1",
+                "sections": [
+                    {
+                        "name": "1-Up Mushroom Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "foi1_main",
+                        "x": 1560,
+                        "y": 312
+                    }
+                ]
+            }
+        ]
+    }
+]

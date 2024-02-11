@@ -1,0 +1,956 @@
+[
+    {
+        "name": "Cookie Mountain",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Cookie Mountain - Goal",
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 1000,
+                        "y": 1240
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "dragon_coin_checks"
+                        ],
+                        "name": "Dragon Coins",
+                        "access_rules": [
+                            "yoshi",
+                            "climb",
+                            "[yoshi], powerup_3, run",
+                            "[climb], powerup_3, run"
+                        ],
+                        "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
+                        "chest_opened_img": "images/checks/dragon_coin.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "name": "Cookie Mountain - Dragon Coin",
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 984,
+                        "y": 224
+                    },
+                    {
+                        "map": "tb4_main",
+                        "x": 88,
+                        "y": 720
+                    },
+                    {
+                        "map": "tb4_main",
+                        "x": 840,
+                        "y": 560
+                    },
+                    {
+                        "map": "tb4_main",
+                        "x": 1352,
+                        "y": 672
+                    },
+                    {
+                        "map": "tb4_main",
+                        "x": 280,
+                        "y": 1184
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "hidden_1up_checks"
+                        ],
+                        "name": "Hidden 1-Up",
+                        "access_rules": [
+                            "swim",
+                            "yoshi",
+                            "powerup_3, run"
+                        ],
+                        "chest_unopened_img": "images/checks/hidden_disabled.png",
+                        "chest_opened_img": "images/checks/hidden.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Cookie Mountain - Hidden 1-Up",
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 2040,
+                        "y": 104
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #1",
+                "sections": [
+                    {
+                        "name": "Coin Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 456,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #2",
+                "sections": [
+                    {
+                        "name": "Coin Block #2",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 472,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #3",
+                "sections": [
+                    {
+                        "name": "Coin Block #3",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 488,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #4",
+                "sections": [
+                    {
+                        "name": "Coin Block #4",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 504,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #5",
+                "sections": [
+                    {
+                        "name": "Coin Block #5",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 520,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #6",
+                "sections": [
+                    {
+                        "name": "Coin Block #6",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 536,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #7",
+                "sections": [
+                    {
+                        "name": "Coin Block #7",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 552,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #8",
+                "sections": [
+                    {
+                        "name": "Coin Block #8",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 568,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #9",
+                "sections": [
+                    {
+                        "name": "Coin Block #9",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 584,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Powerup Block #1",
+                "sections": [
+                    {
+                        "name": "Powerup Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 520,
+                        "y": 248
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - 1-Up Mushroom Block #1",
+                "sections": [
+                    {
+                        "name": "1-Up Mushroom Block #1",
+                        "access_rules": [
+                            "climb",
+                            "swim",
+                            "[climb], yoshi",
+                            "[swim], yoshi",
+                            "[climb], powerup_3, run",
+                            "[swim], powerup_3, run"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 584,
+                        "y": 552
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Vine Block #1",
+                "sections": [
+                    {
+                        "name": "Vine Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 808,
+                        "y": 760
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Yoshi Block #1",
+                "sections": [
+                    {
+                        "name": "Yoshi Block #1",
+                        "access_rules": [
+                            "[rsp]"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 1096,
+                        "y": 760
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #10",
+                "sections": [
+                    {
+                        "name": "Coin Block #10",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 456,
+                        "y": 1192
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #11",
+                "sections": [
+                    {
+                        "name": "Coin Block #11",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 472,
+                        "y": 1192
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Powerup Block #2",
+                "sections": [
+                    {
+                        "name": "Powerup Block #2",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 488,
+                        "y": 1192
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #12",
+                "sections": [
+                    {
+                        "name": "Coin Block #12",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 504,
+                        "y": 1192
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #13",
+                "sections": [
+                    {
+                        "name": "Coin Block #13",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 520,
+                        "y": 1192
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #14",
+                "sections": [
+                    {
+                        "name": "Coin Block #14",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 536,
+                        "y": 1192
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #15",
+                "sections": [
+                    {
+                        "name": "Coin Block #15",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 552,
+                        "y": 1192
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #16",
+                "sections": [
+                    {
+                        "name": "Coin Block #16",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 568,
+                        "y": 1192
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #17",
+                "sections": [
+                    {
+                        "name": "Coin Block #17",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 584,
+                        "y": 1192
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #18",
+                "sections": [
+                    {
+                        "name": "Coin Block #18",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 600,
+                        "y": 1192
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #19",
+                "sections": [
+                    {
+                        "name": "Coin Block #19",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 440,
+                        "y": 1128
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #20",
+                "sections": [
+                    {
+                        "name": "Coin Block #20",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 456,
+                        "y": 1128
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #21",
+                "sections": [
+                    {
+                        "name": "Coin Block #21",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 472,
+                        "y": 1128
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #22",
+                "sections": [
+                    {
+                        "name": "Coin Block #22",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 488,
+                        "y": 1128
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #23",
+                "sections": [
+                    {
+                        "name": "Coin Block #23",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 504,
+                        "y": 1128
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #24",
+                "sections": [
+                    {
+                        "name": "Coin Block #24",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 520,
+                        "y": 1128
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #25",
+                "sections": [
+                    {
+                        "name": "Coin Block #25",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 536,
+                        "y": 1128
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #26",
+                "sections": [
+                    {
+                        "name": "Coin Block #26",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 552,
+                        "y": 1128
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #27",
+                "sections": [
+                    {
+                        "name": "Coin Block #27",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 568,
+                        "y": 1128
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #28",
+                "sections": [
+                    {
+                        "name": "Coin Block #28",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 584,
+                        "y": 1128
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #29",
+                "sections": [
+                    {
+                        "name": "Coin Block #29",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 600,
+                        "y": 1128
+                    }
+                ]
+            },
+            {
+                "name": "Cookie Mountain - Blocksanity - Coin Block #30",
+                "sections": [
+                    {
+                        "name": "Coin Block #30",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tb4_main",
+                        "x": 872,
+                        "y": 1192
+                    }
+                ]
+            }
+        ]
+    }
+]

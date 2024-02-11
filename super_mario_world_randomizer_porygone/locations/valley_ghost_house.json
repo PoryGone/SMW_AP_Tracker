@@ -1,0 +1,207 @@
+[
+    {
+        "name": "Valley Ghost House",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            "p_switch"
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Valley Ghost House - Goal",
+                "map_locations": [
+                    {
+                        "map": "vobgh_sub_3",
+                        "x": 232,
+                        "y": 376
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Secret Exit",
+                        "access_rules": [
+                            "p_switch, carry, [run]"
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Valley Ghost House - Keyhole",
+                "map_locations": [
+                    {
+                        "map": "vobgh_sub_2",
+                        "x": 1016,
+                        "y": 88
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "dragon_coin_checks"
+                        ],
+                        "name": "Dragon Coins",
+                        "access_rules": [
+                            "p_switch"
+                        ],
+                        "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
+                        "chest_opened_img": "images/checks/dragon_coin.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "name": "Valley Ghost House - Dragon Coin",
+                "map_locations": [
+                    {
+                        "map": "vobgh_main",
+                        "x": 312,
+                        "y": 240
+                    },
+                    {
+                        "map": "vobgh_sub_1",
+                        "x": 904,
+                        "y": 208
+                    },
+                    {
+                        "map": "vobgh_sub_1",
+                        "x": 344,
+                        "y": 208
+                    },
+                    {
+                        "map": "vobgh_sub_1",
+                        "x": 1208,
+                        "y": 240
+                    },
+                    {
+                        "map": "vobgh_sub_2",
+                        "x": 248,
+                        "y": 368
+                    },
+                    {
+                        "map": "vobgh_sub_2",
+                        "x": 504,
+                        "y": 272
+                    }
+                ]
+            },
+            {
+                "name": "Valley Ghost House - Blocksanity - P-Switch Coin Block #1",
+                "sections": [
+                    {
+                        "name": "P-Switch Coin Block #1",
+                        "access_rules": [
+                            "p_switch"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vobgh_sub_1",
+                        "x": 360,
+                        "y": 264
+                    }
+                ]
+            },
+            {
+                "name": "Valley Ghost House - Blocksanity - Multi Coin Block #1",
+                "sections": [
+                    {
+                        "name": "Multi Coin Block #1",
+                        "access_rules": [
+                            "p_switch"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vobgh_sub_1",
+                        "x": 1400,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Valley Ghost House - Blocksanity - Powerup Block #1",
+                "sections": [
+                    {
+                        "name": "Powerup Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vobgh_main",
+                        "x": 232,
+                        "y": 264
+                    }
+                ]
+            },
+            {
+                "name": "Valley Ghost House - Blocksanity - Directional Coin Block #1",
+                "sections": [
+                    {
+                        "name": "Directional Coin Block #1",
+                        "access_rules": [
+                            "p_switch"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vobgh_sub_2",
+                        "x": 632,
+                        "y": 328
+                    }
+                ]
+            }
+        ]
+    }
+]

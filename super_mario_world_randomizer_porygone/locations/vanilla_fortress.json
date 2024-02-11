@@ -1,0 +1,133 @@
+[
+    {
+        "name": "Vanilla Fortress",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            "swim"
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Vanilla Fortress - Boss battle",
+                "map_locations": [
+                    {
+                        "map": "vdf_sub_1",
+                        "x": 1984,
+                        "y": 304
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "hidden_1up_checks"
+                        ],
+                        "name": "Hidden 1-Up",
+                        "access_rules": [
+                            "swim"
+                        ],
+                        "chest_unopened_img": "images/checks/hidden_disabled.png",
+                        "chest_opened_img": "images/checks/hidden.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Vanilla Fortress - Hidden 1-Up",
+                "map_locations": [
+                    {
+                        "map": "vdf_sub_1",
+                        "x": 1592,
+                        "y": 264
+                    }
+                ]
+            },
+            {
+                "name": "Vanilla Fortress - Blocksanity - Powerup Block #1",
+                "sections": [
+                    {
+                        "name": "Powerup Block #1",
+                        "access_rules": [
+                            "swim"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vdf_main",
+                        "x": 1256,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Vanilla Fortress - Blocksanity - Powerup Block #2",
+                "sections": [
+                    {
+                        "name": "Powerup Block #2",
+                        "access_rules": [
+                            "swim"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vdf_sub_1",
+                        "x": 552,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Vanilla Fortress - Blocksanity - Yellow Switch Palace Block #1",
+                "sections": [
+                    {
+                        "name": "Yellow Switch Palace Block #1",
+                        "access_rules": [
+                            "ysp, swim"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vdf_sub_1",
+                        "x": 1928,
+                        "y": 280
+                    }
+                ]
+            }
+        ]
+    }
+]

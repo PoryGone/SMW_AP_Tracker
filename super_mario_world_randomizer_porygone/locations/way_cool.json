@@ -1,0 +1,170 @@
+[
+    {
+        "name": "Way Cool",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            "climb",
+                            "yoshi"
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Way Cool - Goal",
+                "map_locations": [
+                    {
+                        "map": "sw3_main",
+                        "x": 744,
+                        "y": 1240
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "dragon_coin_checks"
+                        ],
+                        "name": "Dragon Coins",
+                        "access_rules": [
+                            "yoshi"
+                        ],
+                        "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
+                        "chest_opened_img": "images/checks/dragon_coin.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "name": "Way Cool - Dragon Coin",
+                "map_locations": [
+                    {
+                        "map": "sw3_main",
+                        "x": 584,
+                        "y": 352
+                    },
+                    {
+                        "map": "sw3_main",
+                        "x": 1672,
+                        "y": 192
+                    },
+                    {
+                        "map": "sw3_main",
+                        "x": 184,
+                        "y": 624
+                    },
+                    {
+                        "map": "sw3_main",
+                        "x": 1416,
+                        "y": 768
+                    },
+                    {
+                        "map": "sw3_sub_2",
+                        "x": 232,
+                        "y": 304
+                    },
+                    {
+                        "map": "sw3_sub_2",
+                        "x": 488,
+                        "y": 368
+                    },
+                    {
+                        "map": "sw3_sub_2",
+                        "x": 840,
+                        "y": 224
+                    },
+                    {
+                        "map": "sw3_sub_2",
+                        "x": 1144,
+                        "y": 352
+                    }
+                ]
+            },
+            {
+                "name": "Way Cool - Blocksanity - Powerup Block #1",
+                "sections": [
+                    {
+                        "name": "Powerup Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sw3_main",
+                        "x": 1016,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Way Cool - Blocksanity - Yoshi Block #1",
+                "sections": [
+                    {
+                        "name": "Yoshi Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sw3_sub_1",
+                        "x": 136,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "Way Cool - Blocksanity - Wings Block #1",
+                "sections": [
+                    {
+                        "name": "Wings Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sw3_main",
+                        "x": 600,
+                        "y": 760
+                    }
+                ]
+            }
+        ]
+    }
+]

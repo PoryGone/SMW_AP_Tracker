@@ -1,0 +1,348 @@
+[
+    {
+        "name": "Donut Plains 2",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Donut Plains 2 - Goal",
+                "map_locations": [
+                    {
+                        "map": "dp2_sub_2",
+                        "x": 232,
+                        "y": 376
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Secret Exit",
+                        "access_rules": [
+                            "carry, yoshi",
+                            "carry, [spin_jump], climb, [powerup_1]"
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Donut Plains 2 - Keyhole",
+                "map_locations": [
+                    {
+                        "map": "dp2_sub_1",
+                        "x": 600,
+                        "y": 104
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "dragon_coin_checks"
+                        ],
+                        "name": "Dragon Coins",
+                        "access_rules": [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
+                        "chest_opened_img": "images/checks/dragon_coin.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "name": "Donut Plains 2 - Dragon Coin",
+                "map_locations": [
+                    {
+                        "map": "dp2_main",
+                        "x": 584,
+                        "y": 192
+                    },
+                    {
+                        "map": "dp2_main",
+                        "x": 1576,
+                        "y": 224
+                    },
+                    {
+                        "map": "dp2_main",
+                        "x": 24,
+                        "y": 640
+                    },
+                    {
+                        "map": "dp2_main",
+                        "x": 648,
+                        "y": 624
+                    },
+                    {
+                        "map": "dp2_main",
+                        "x": 936,
+                        "y": 608
+                    }
+                ]
+            },
+            {
+                "name": "Donut Plains 2 - Blocksanity - Coin Block #1",
+                "sections": [
+                    {
+                        "name": "Coin Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dp2_main",
+                        "x": 216,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "Donut Plains 2 - Blocksanity - Coin Block #2",
+                "sections": [
+                    {
+                        "name": "Coin Block #2",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dp2_main",
+                        "x": 232,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "Donut Plains 2 - Blocksanity - Coin Block #3",
+                "sections": [
+                    {
+                        "name": "Coin Block #3",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dp2_main",
+                        "x": 248,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "Donut Plains 2 - Blocksanity - Yellow Switch Palace Block #1",
+                "sections": [
+                    {
+                        "name": "Yellow Switch Palace Block #1",
+                        "access_rules": [
+                            "ysp"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dp2_main",
+                        "x": 264,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "Donut Plains 2 - Blocksanity - Powerup Block #1",
+                "sections": [
+                    {
+                        "name": "Powerup Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dp2_main",
+                        "x": 824,
+                        "y": 216
+                    }
+                ]
+            },
+            {
+                "name": "Donut Plains 2 - Blocksanity - Multi Coin Block #1",
+                "sections": [
+                    {
+                        "name": "Multi Coin Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dp2_main",
+                        "x": 968,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "Donut Plains 2 - Blocksanity - Flying Question Block #1",
+                "sections": [
+                    {
+                        "name": "Flying Question Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dp2_main",
+                        "x": 296,
+                        "y": 664
+                    }
+                ]
+            },
+            {
+                "name": "Donut Plains 2 - Blocksanity - Green Switch Palace Block #1",
+                "sections": [
+                    {
+                        "name": "Green Switch Palace Block #1",
+                        "access_rules": [
+                            "gsp"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dp2_main",
+                        "x": 1384,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Donut Plains 2 - Blocksanity - Yellow Switch Palace Block #2",
+                "sections": [
+                    {
+                        "name": "Yellow Switch Palace Block #2",
+                        "access_rules": [
+                            "ysp"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dp2_sub_1",
+                        "x": 88,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "Donut Plains 2 - Blocksanity - Vine Block #1",
+                "sections": [
+                    {
+                        "name": "Vine Block #1",
+                        "access_rules": [
+                            "carry, [spin_jump], [powerup_1]",
+                            "yoshi"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dp2_sub_1",
+                        "x": 696,
+                        "y": 232
+                    }
+                ]
+            }
+        ]
+    }
+]

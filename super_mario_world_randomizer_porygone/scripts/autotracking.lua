@@ -40,16 +40,19 @@ function onClear(slot_data)
         end
     end
 
-    for k, v in pairs(LOCATION_MAPPING) do
-        local loc_data = LOCATION_MAPPING[k]
-        local loc_name = loc_data[1]
-        local loc_type = loc_data[2]
-        local level_str = "@" .. loc_name .. "/" .. loc_type
-        local obj = Tracker:FindObjectForCode(level_str)
-        if obj then
-                obj.AvailableChestCount = obj.ChestCount
+    for _, location_array in pairs(LOCATION_MAPPING) do
+        for _, location in pairs(location_array) do
+            if location then
+                local obj = Tracker:FindObjectForCode(location)
+                if obj then
+                    if location:sub(1, 1) == "@" then
+                        obj.AvailableChestCount = obj.ChestCount
+                    else
+                        obj.Active = false
+                    end
+                end
+            end
         end
-        
     end
 
     if SLOT_DATA == nil then
@@ -59,6 +62,22 @@ function onClear(slot_data)
     if slot_data['dragon_coin_checks'] then
         local dragon_coins = Tracker:FindObjectForCode("dragon_coin_checks")
         dragon_coins.Active = (slot_data['dragon_coin_checks'] ~= 0)
+    end
+    if slot_data['moon_checks'] then
+        local moons = Tracker:FindObjectForCode("moon_checks")
+        moons.Active = (slot_data['moon_checks'] ~= 0)
+    end
+    if slot_data['hidden_1up_checks'] then
+        local hidden_1ups = Tracker:FindObjectForCode("hidden_1up_checks")
+        hidden_1ups.Active = (slot_data['hidden_1up_checks'] ~= 0)
+    end
+    if slot_data['bonus_block_checks'] then
+        local bonus_blocks = Tracker:FindObjectForCode("bonus_block_checks")
+        bonus_blocks.Active = (slot_data['bonus_block_checks'] ~= 0)
+    end
+    if slot_data['blocksanity'] then
+        local blocksanity = Tracker:FindObjectForCode("blocksanity")
+        blocksanity.Active = (slot_data['blocksanity'] ~= 0)
     end
 end
 
@@ -93,19 +112,23 @@ function onItem(index, item_id, item_name, player_number)
 end
 
 function onLocation(location_id, location_name)
-
-    print(location_name)
-
-    local loc_data = LOCATION_MAPPING[location_id]
-    if not loc_data then
+    local location_array = LOCATION_MAPPING[location_id]
+    if not location_array or not location_array[1] then
+        print(string.format("onLocation: could not find location mapping for id %s", location_id))
         return
     end
-    local loc_name = loc_data[1]
-    local loc_type = loc_data[2]
-    local level_str = "@" .. loc_name .. "/" .. loc_type
-    local obj = Tracker:FindObjectForCode(level_str)
-    if obj then
-        obj.AvailableChestCount = obj.AvailableChestCount - 1
+
+    for _, location in pairs(location_array) do
+        local obj = Tracker:FindObjectForCode(location)
+        if obj then
+            if location:sub(1,1) == "@" then
+                obj.AvailableChestCount = obj.AvailableChestCount - 1 
+            else
+                obj.Active = true
+            end
+        else 
+            print(string.format("onLocation: could not find object for code %s", location))
+        end
     end
 end
 

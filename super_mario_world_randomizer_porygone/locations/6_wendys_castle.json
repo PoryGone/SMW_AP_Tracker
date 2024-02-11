@@ -1,0 +1,133 @@
+[
+    {
+        "name": "#6 Wendy's Castle",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            "powerup_1"
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "#6 Wendy's Castle - Boss battle",
+                "map_locations": [
+                    {
+                        "map": "cic_sub",
+                        "x": 2000,
+                        "y": 368
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "hidden_1up_checks"
+                        ],
+                        "name": "Hidden 1-Up",
+                        "access_rules": [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/checks/hidden_disabled.png",
+                        "chest_opened_img": "images/checks/hidden.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "#6 Wendy's Castle - Hidden 1-Up",
+                "map_locations": [
+                    {
+                        "map": "cic_main",
+                        "x": 328,
+                        "y": 776
+                    }
+                ]
+            },
+            {
+                "name": "#6 Wendy's Castle - Blocksanity - Yellow Switch Palace Block #1",
+                "sections": [
+                    {
+                        "name": "Yellow Switch Palace Block #1",
+                        "access_rules": [
+                            "ysp, powerup_1"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cic_main",
+                        "x": 712,
+                        "y": 712
+                    }
+                ]
+            },
+            {
+                "name": "#6 Wendy's Castle - Blocksanity - Yellow Switch Palace Block #2",
+                "sections": [
+                    {
+                        "name": "Yellow Switch Palace Block #2",
+                        "access_rules": [
+                            "ysp, powerup_1"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cic_sub",
+                        "x": 344,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "#6 Wendy's Castle - Blocksanity - Green Switch Palace Block #1",
+                "sections": [
+                    {
+                        "name": "Green Switch Palace Block #1",
+                        "access_rules": [
+                            "gsp, powerup_1"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "cic_sub",
+                        "x": 1880,
+                        "y": 328
+                    }
+                ]
+            }
+        ]
+    }
+]

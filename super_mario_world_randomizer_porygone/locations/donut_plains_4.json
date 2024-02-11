@@ -1,0 +1,228 @@
+[
+    {
+        "name": "Donut Plains 4",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Donut Plains 4 - Goal",
+                "map_locations": [
+                    {
+                        "map": "dp4_main",
+                        "x": 744,
+                        "y": 1240
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "dragon_coin_checks"
+                        ],
+                        "name": "Dragon Coins",
+                        "access_rules": [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
+                        "chest_opened_img": "images/checks/dragon_coin.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "name": "Donut Plains 4 - Dragon coin",
+                "map_locations": [
+                    {
+                        "map": "dp4_main",
+                        "x": 472,
+                        "y": 240
+                    },
+                    {
+                        "map": "dp4_main",
+                        "x": 1816,
+                        "y": 272
+                    },
+                    {
+                        "map": "dp4_sub_2",
+                        "x": 376,
+                        "y": 272
+                    },
+                    {
+                        "map": "dp4_main",
+                        "x": 888,
+                        "y": 784
+                    },
+                    {
+                        "map": "dp4_main",
+                        "x": 1992,
+                        "y": 704
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "moon_checks"
+                        ],
+                        "name": "3-Up Moon",
+                        "access_rules": [
+                            "[powerup_3], [run], yoshi, carry",
+                            "powerup_3, run"
+                        ],
+                        "chest_unopened_img": "images/checks/moon_disabled.png",
+                        "chest_opened_img": "images/checks/moon.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Donut Plains 4 - 3-Up moon",
+                "map_locations": [
+                    {
+                        "map": "dp4_main",
+                        "x": 1784,
+                        "y": 488
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "hidden_1up_checks"
+                        ],
+                        "name": "Hidden 1-Up",
+                        "access_rules": [
+                            "[powerup_3], [run], yoshi, carry",
+                            "powerup_3, run"
+                        ],
+                        "chest_unopened_img": "images/checks/hidden_disabled.png",
+                        "chest_opened_img": "images/checks/hidden.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Donut Plains 4 - Hidden 1-Up",
+                "map_locations": [
+                    {
+                        "map": "dp4_main",
+                        "x": 1944,
+                        "y": 40
+                    }
+                ]
+            },
+            {
+                "name": "Donut Plains 4 - Blocksanity - Coin Block #1",
+                "sections": [
+                    {
+                        "name": "Coin Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dp4_main",
+                        "x": 1640,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Donut Plains 4 - Blocksanity - Powerup Block #1",
+                "sections": [
+                    {
+                        "name": "Powerup Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dp4_main",
+                        "x": 1656,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Donut Plains 4 - Blocksanity - Coin Block #2",
+                "sections": [
+                    {
+                        "name": "Coin Block #2",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dp4_main",
+                        "x": 1672,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Donut Plains 4 - Blocksanity - Yoshi Block #1",
+                "sections": [
+                    {
+                        "name": "Yoshi Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "dp4_main",
+                        "x": 760,
+                        "y": 776
+                    }
+                ]
+            }
+        ]
+    }
+]

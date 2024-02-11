@@ -1,0 +1,250 @@
+[
+    {
+        "name": "Forest Ghost House",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            "p_switch"
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Forest Ghost House - Goal",
+                "map_locations": [
+                    {
+                        "map": "foigh_sub_3",
+                        "x": 232,
+                        "y": 376
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Secret Exit",
+                        "access_rules": [
+                            "p_switch"
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Forest Ghost House - Secret goal",
+                "map_locations": [
+                    {
+                        "map": "foigh_sub_2",
+                        "x": 232,
+                        "y": 376
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "dragon_coin_checks"
+                        ],
+                        "name": "Dragon Coins",
+                        "access_rules": [
+                            "p_switch"
+                        ],
+                        "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
+                        "chest_opened_img": "images/checks/dragon_coin.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "name": "Forest Ghost House - Dragon Coin",
+                "map_locations": [
+                    {
+                        "map": "foigh_main",
+                        "x": 888,
+                        "y": 656
+                    },
+                    {
+                        "map": "foigh_sub_1",
+                        "x": 952,
+                        "y": 320
+                    },
+                    {
+                        "map": "foigh_sub_1",
+                        "x": 1240,
+                        "y": 272
+                    },
+                    {
+                        "map": "foigh_sub_1",
+                        "x": 1544,
+                        "y": 304
+                    },
+                    {
+                        "map": "foigh_main",
+                        "x": 552,
+                        "y": 272
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "moon_checks"
+                        ],
+                        "name": "3-Up Moon",
+                        "access_rules": [
+                            "p_switch"
+                        ],
+                        "chest_unopened_img": "images/checks/moon_disabled.png",
+                        "chest_opened_img": "images/checks/moon.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Forest Ghost House - 3-Up Moon",
+                "map_locations": [
+                    {
+                        "map": "foigh_sub_3",
+                        "x": 152,
+                        "y": 376
+                    }
+                ]
+            },
+            {
+                "name": "Forest Ghost House - Blocksanity - Coin Block #1",
+                "sections": [
+                    {
+                        "name": "Coin Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "foigh_main",
+                        "x": 856,
+                        "y": 712
+                    }
+                ]
+            },
+            {
+                "name": "Forest Ghost House - Blocksanity - Powerup Block #1",
+                "sections": [
+                    {
+                        "name": "Powerup Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "foigh_main",
+                        "x": 920,
+                        "y": 712
+                    }
+                ]
+            },
+            {
+                "name": "Forest Ghost House - Blocksanity - Flying Question Block #1",
+                "sections": [
+                    {
+                        "name": "Flying Question Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "foigh_sub_1",
+                        "x": 408,
+                        "y": 344
+                    }
+                ]
+            },
+            {
+                "name": "Forest Ghost House - Blocksanity - Powerup Block #2",
+                "sections": [
+                    {
+                        "name": "Powerup Block #2",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "foigh_sub_1",
+                        "x": 888,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "Forest Ghost House - Blocksanity - 1-Up Mushroom Block #1",
+                "sections": [
+                    {
+                        "name": "1-Up Mushroom Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "foigh_sub_1",
+                        "x": 1608,
+                        "y": 360
+                    }
+                ]
+            }
+        ]
+    }
+]

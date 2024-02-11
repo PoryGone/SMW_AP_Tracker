@@ -1,0 +1,274 @@
+[
+    {
+        "name": "Forest of Illusion 2",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            "swim"
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Forest of Illusion 2 - Goal",
+                "map_locations": [
+                    {
+                        "map": "foi2_main",
+                        "x": 1256,
+                        "y": 808
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Secret Exit",
+                        "access_rules": [
+                            "swim, carry"
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Forest of Illusion 2 - Keyhole",
+                "map_locations": [
+                    {
+                        "map": "foi2_main",
+                        "x": 56,
+                        "y": 792
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "dragon_coin_checks"
+                        ],
+                        "name": "Dragon Coins",
+                        "access_rules": [
+                            "swim"
+                        ],
+                        "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
+                        "chest_opened_img": "images/checks/dragon_coin.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "name": "Forest of Illusion 2 - Dragon Coin",
+                "map_locations": [
+                    {
+                        "map": "foi2_main",
+                        "x": 504,
+                        "y": 176
+                    },
+                    {
+                        "map": "foi2_main",
+                        "x": 1736,
+                        "y": 352
+                    },
+                    {
+                        "map": "foi2_main",
+                        "x": 1576,
+                        "y": 64
+                    },
+                    {
+                        "map": "foi2_main",
+                        "x": 136,
+                        "y": 608
+                    },
+                    {
+                        "map": "foi2_main",
+                        "x": 872,
+                        "y": 640
+                    }
+                ]
+            },
+            {
+                "name": "Forest of Illusion 2 - Blocksanity - Green Switch Palace Block #1",
+                "sections": [
+                    {
+                        "name": "Green Switch Palace Block #1",
+                        "access_rules": [
+                            "gsp, swim"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "foi2_main",
+                        "x": 120,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "Forest of Illusion 2 - Blocksanity - Powerup Block #1",
+                "sections": [
+                    {
+                        "name": "Powerup Block #1",
+                        "access_rules": [
+                            "swim"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "foi2_main",
+                        "x": 1160,
+                        "y": 72
+                    }
+                ]
+            },
+            {
+                "name": "Forest of Illusion 2 - Blocksanity - Invisible Coin Block #1",
+                "sections": [
+                    {
+                        "name": "Invisible Coin Block #1",
+                        "access_rules": [
+                            "swim"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "foi2_main",
+                        "x": 1544,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "Forest of Illusion 2 - Blocksanity - Invisible Coin Block #2",
+                "sections": [
+                    {
+                        "name": "Invisible Coin Block #2",
+                        "access_rules": [
+                            "swim"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "foi2_main",
+                        "x": 1560,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "Forest of Illusion 2 - Blocksanity - Invisible 1-Up Mushroom Block #1",
+                "sections": [
+                    {
+                        "name": "Invisible 1-Up Mushroom Block #1",
+                        "access_rules": [
+                            "swim"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "foi2_main",
+                        "x": 1576,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "Forest of Illusion 2 - Blocksanity - Invisible Coin Block #3",
+                "sections": [
+                    {
+                        "name": "Invisible Coin Block #3",
+                        "access_rules": [
+                            "swim"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "foi2_main",
+                        "x": 1592,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "Forest of Illusion 2 - Blocksanity - Yellow Switch Palace Block #1",
+                "sections": [
+                    {
+                        "name": "Yellow Switch Palace Block #1",
+                        "access_rules": [
+                            "ysp, swim"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "foi2_main",
+                        "x": 344,
+                        "y": 792
+                    }
+                ]
+            }
+        ]
+    }
+]

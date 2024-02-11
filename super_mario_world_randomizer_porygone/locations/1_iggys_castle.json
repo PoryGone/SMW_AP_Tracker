@@ -1,0 +1,186 @@
+[
+    {
+        "name": "#1 Iggy's Castle",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            "climb"
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "#1 Iggy's Castle - Boss battle",
+                "map_locations": [
+                    {
+                        "map": "yic_sub_1",
+                        "x": 976,
+                        "y": 360
+                    }
+                ]
+            },
+            {
+                "name": "#1 Iggy's Castle - Blocksanity - Coin Block #1",
+                "sections": [
+                    {
+                        "name": "Coin Block #1",
+                        "access_rules": [
+                            "carry, [climb]",
+                            "climb"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "yic_main",
+                        "x": 648,
+                        "y": 248
+                    }
+                ]
+            },
+            {
+                "name": "#1 Iggy's Castle - Blocksanity - Coin Block #2",
+                "sections": [
+                    {
+                        "name": "Coin Block #2",
+                        "access_rules": [
+                            "carry, [climb]",
+                            "climb"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "yic_main",
+                        "x": 664,
+                        "y": 248
+                    }
+                ]
+            },
+            {
+                "name": "#1 Iggy's Castle - Blocksanity - Powerup Block #1",
+                "sections": [
+                    {
+                        "name": "Powerup Block #1",
+                        "access_rules": [
+                            "carry, [climb]",
+                            "climb"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "yic_main",
+                        "x": 680,
+                        "y": 248
+                    }
+                ]
+            },
+            {
+                "name": "#1 Iggy's Castle - Blocksanity - Coin Block #3",
+                "sections": [
+                    {
+                        "name": "Coin Block #3",
+                        "access_rules": [
+                            "carry, [climb]",
+                            "climb"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "yic_main",
+                        "x": 696,
+                        "y": 248
+                    }
+                ]
+            },
+            {
+                "name": "#1 Iggy's Castle - Blocksanity - Coin Block #4",
+                "sections": [
+                    {
+                        "name": "Coin Block #4",
+                        "access_rules": [
+                            "carry, [climb]",
+                            "climb"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "yic_main",
+                        "x": 712,
+                        "y": 248
+                    }
+                ]
+            },
+            {
+                "name": "#1 Iggy's Castle - Blocksanity - Flying Question Block #1",
+                "sections": [
+                    {
+                        "name": "Flying Question Block #1",
+                        "access_rules": [
+                            "climb"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "yic_sub_1",
+                        "x": 600,
+                        "y": 344
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,61 @@
+[
+    {
+        "name": "#4 Ludwig's Castle",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            "run, climb"
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "#4 Ludwig's Castle - Boss battle",
+                "map_locations": [
+                    {
+                        "map": "tbc_sub_2_vert",
+                        "x": 192,
+                        "y": 128
+                    }
+                ]
+            },
+            {
+                "name": "#4 Ludwig's Castle - Blocksanity - Powerup Block #1",
+                "sections": [
+                    {
+                        "name": "Powerup Block #1",
+                        "access_rules": [
+                            "climb"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "tbc_sub_2_vert",
+                        "x": 952,
+                        "y": 120
+                    }
+                ]
+            }
+        ]
+    }
+]

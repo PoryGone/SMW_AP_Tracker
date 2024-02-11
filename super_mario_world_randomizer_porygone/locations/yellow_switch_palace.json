@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Yellow Switch Palace",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Yellow Switch Palace - Palace Button",
+                "map_locations": [
+                    {
+                        "map": "ysp_sub_1",
+                        "x": 640,
+                        "y": 368
+                    }
+                ]
+            }
+        ]
+    }
+]

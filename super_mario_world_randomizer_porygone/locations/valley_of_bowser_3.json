@@ -1,0 +1,130 @@
+[
+    {
+        "name": "Valley of Bowser 3",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Valley of Bowser 3 - Goal",
+                "map_locations": [
+                    {
+                        "map": "vob3_main",
+                        "x": 744,
+                        "y": 1240
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "dragon_coin_checks"
+                        ],
+                        "name": "Dragon Coins",
+                        "access_rules": [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
+                        "chest_opened_img": "images/checks/dragon_coin.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "name": "Valley of Bowser 3 - Dragon Coin",
+                "map_locations": [
+                    {
+                        "map": "vob3_main",
+                        "x": 776,
+                        "y": 272
+                    },
+                    {
+                        "map": "vob3_main",
+                        "x": 1464,
+                        "y": 336
+                    },
+                    {
+                        "map": "vob3_main",
+                        "x": 1672,
+                        "y": 272
+                    },
+                    {
+                        "map": "vob3_main",
+                        "x": 1320,
+                        "y": 736
+                    },
+                    {
+                        "map": "vob3_main",
+                        "x": 120,
+                        "y": 1136
+                    }
+                ]
+            },
+            {
+                "name": "Valley of Bowser 3 - Blocksanity - Powerup Block #1",
+                "sections": [
+                    {
+                        "name": "Powerup Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vob3_main",
+                        "x": 312,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Valley of Bowser 3 - Blocksanity - Powerup Block #2",
+                "sections": [
+                    {
+                        "name": "Powerup Block #2",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vob3_main",
+                        "x": 168,
+                        "y": 664
+                    }
+                ]
+            }
+        ]
+    }
+]

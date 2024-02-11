@@ -1,0 +1,355 @@
+[
+    {
+        "name": "Vanilla Dome 1",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            "[run], [star]",
+                            "[run], [powerup_1]"
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Vanilla Dome 1 - Goal",
+                "map_locations": [
+                    {
+                        "map": "vd1_main",
+                        "x": 2024,
+                        "y": 1240
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Secret Exit",
+                        "access_rules": [
+                            "carry, yoshi, [climb]",
+                            "carry, yoshi, [rsp]",
+                            "carry, rsp, climb"
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "Vanilla Dome 1 - Keyhole",
+                "map_locations": [
+                    {
+                        "map": "vd1_main",
+                        "x": 1864,
+                        "y": 136
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            "dragon_coin_checks"
+                        ],
+                        "name": "Dragon Coins",
+                        "access_rules": [
+                            "carry, [run], [star]",
+                            "carry, [run], [powerup_1]"
+                        ],
+                        "chest_unopened_img": "images/checks/dragon_coin_disabled.png",
+                        "chest_opened_img": "images/checks/dragon_coin.png",
+                        "clear_as_group": true,
+                        "item_count": 1
+                    }
+                ],
+                "name": "Vanilla Dome 1 - Dragon Coin",
+                "map_locations": [
+                    {
+                        "map": "vd1_main",
+                        "x": 1160,
+                        "y": 272
+                    },
+                    {
+                        "map": "vd1_sub_1",
+                        "x": 1320,
+                        "y": 320
+                    },
+                    {
+                        "map": "vd1_main",
+                        "x": 168,
+                        "y": 1104
+                    },
+                    {
+                        "map": "vd1_main",
+                        "x": 808,
+                        "y": 1104
+                    },
+                    {
+                        "map": "vd1_main",
+                        "x": 1672,
+                        "y": 1232
+                    }
+                ]
+            },
+            {
+                "name": "Vanilla Dome 1 - Blocksanity - Flying Question Block #1",
+                "sections": [
+                    {
+                        "name": "Flying Question Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vd1_main",
+                        "x": 600,
+                        "y": 280
+                    }
+                ]
+            },
+            {
+                "name": "Vanilla Dome 1 - Blocksanity - Powerup Block #1",
+                "sections": [
+                    {
+                        "name": "Powerup Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vd1_main",
+                        "x": 1032,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "Vanilla Dome 1 - Blocksanity - Powerup Block #2",
+                "sections": [
+                    {
+                        "name": "Powerup Block #2",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vd1_main",
+                        "x": 1112,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Vanilla Dome 1 - Blocksanity - Coin Block #1",
+                "sections": [
+                    {
+                        "name": "Coin Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vd1_main",
+                        "x": 1128,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "Vanilla Dome 1 - Blocksanity - 1-Up Mushroom Block #1",
+                "sections": [
+                    {
+                        "name": "1-Up Mushroom Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vd1_main",
+                        "x": 1240,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "Vanilla Dome 1 - Blocksanity - Powerup Block #3",
+                "sections": [
+                    {
+                        "name": "Powerup Block #3",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vd1_main",
+                        "x": 1608,
+                        "y": 392
+                    }
+                ]
+            },
+            {
+                "name": "Vanilla Dome 1 - Blocksanity - Vine Block #1",
+                "sections": [
+                    {
+                        "name": "Vine Block #1",
+                        "access_rules": [
+                            "[carry], yoshi",
+                            "[rsp], yoshi",
+                            "carry",
+                            "rsp"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vd1_main",
+                        "x": 1672,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Vanilla Dome 1 - Blocksanity - Star Block #1",
+                "sections": [
+                    {
+                        "name": "Star Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vd1_sub_1",
+                        "x": 248,
+                        "y": 232
+                    }
+                ]
+            },
+            {
+                "name": "Vanilla Dome 1 - Blocksanity - Powerup Block #4",
+                "sections": [
+                    {
+                        "name": "Powerup Block #4",
+                        "access_rules": [
+                            "[run], [star]",
+                            "[run], [powerup_1]"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vd1_main",
+                        "x": 424,
+                        "y": 1192
+                    }
+                ]
+            },
+            {
+                "name": "Vanilla Dome 1 - Blocksanity - Coin Block #2",
+                "sections": [
+                    {
+                        "name": "Coin Block #2",
+                        "access_rules": [
+                            "[run], [star]",
+                            "[run], [powerup_1]"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vd1_main",
+                        "x": 1496,
+                        "y": 1208
+                    }
+                ]
+            }
+        ]
+    }
+]

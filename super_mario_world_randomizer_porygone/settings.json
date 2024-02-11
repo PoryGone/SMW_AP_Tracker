@@ -2,5 +2,6 @@
     "auto_pin_capturing_locations": false,
     "auto_unpin_on_clear": true,
     "layout_swap_left_right": false,
+    "smooth_scaling": false, // configure the image scaling method. null = default = currently crisp
     "disabled_image_filter": "grayscale, dim"
 }

@@ -1,0 +1,159 @@
+[
+    {
+        "name": "#3 Lemmy's Castle",
+        "access_rules": [
+            ""
+        ],
+        "visibility_rules": [
+            ""
+        ],
+        "children": [
+            {
+                "sections": [
+                    {
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "name": "Normal Exit",
+                        "access_rules": [
+                            ""
+                        ],
+                        "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
+                        "chest_opened_img": "images/checks/goal_sphere.png",
+                        "item_count": 1
+                    }
+                ],
+                "name": "#3 Lemmy's Castle - Boss battle",
+                "map_locations": [
+                    {
+                        "map": "vdc_sub_2",
+                        "x": 1216,
+                        "y": 800
+                    }
+                ]
+            },
+            {
+                "name": "#3 Lemmy's Castle - Blocksanity - 1-Up Mushroom Block #1",
+                "sections": [
+                    {
+                        "name": "1-Up Mushroom Block #1",
+                        "access_rules": [
+                            "[carry]",
+                            "[poweurp_1]"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vdc_main",
+                        "x": 280,
+                        "y": 264
+                    }
+                ]
+            },
+            {
+                "name": "#3 Lemmy's Castle - Blocksanity - 1-Up Mushroom Block #2",
+                "sections": [
+                    {
+                        "name": "1-Up Mushroom Block #2",
+                        "access_rules": [
+                            "[carry]",
+                            "[poweurp_1]"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vdc_main",
+                        "x": 536,
+                        "y": 264
+                    }
+                ]
+            },
+            {
+                "name": "#3 Lemmy's Castle - Blocksanity - Powerup Block #1",
+                "sections": [
+                    {
+                        "name": "Powerup Block #1",
+                        "access_rules": [
+                            ""
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vdc_main",
+                        "x": 936,
+                        "y": 312
+                    }
+                ]
+            },
+            {
+                "name": "#3 Lemmy's Castle - Blocksanity - 1-Up Mushroom Block #3",
+                "sections": [
+                    {
+                        "name": "1-Up Mushroom Block #3",
+                        "access_rules": [
+                            "p_switch"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vdc_sub_1",
+                        "x": 376,
+                        "y": 328
+                    }
+                ]
+            },
+            {
+                "name": "#3 Lemmy's Castle - Blocksanity - Green Switch Palace Block #1",
+                "sections": [
+                    {
+                        "name": "Green Switch Palace Block #1",
+                        "access_rules": [
+                            "gsp"
+                        ],
+                        "visibility_rules": [
+                            "blocksanity"
+                        ],
+                        "chest_unopened_img": "images/checks/blocksanity_disabled.png",
+                        "chest_opened_img": "images/checks/blocksanity.png",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "vdc_sub_2",
+                        "x": 1176,
+                        "y": 760
+                    }
+                ]
+            }
+        ]
+    }
+]
