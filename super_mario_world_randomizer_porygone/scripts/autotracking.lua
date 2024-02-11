@@ -1,5 +1,6 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/tab_mapping.lua")
 
 LEVEL_UNLOCKS = {}
 
@@ -55,6 +56,9 @@ function onClear(slot_data)
         end
     end
 
+	PLAYER_ID = Archipelago.PlayerNumber or -1
+	TEAM_NUMBER = Archipelago.TeamNumber or 0
+
     if SLOT_DATA == nil then
         return
     end
@@ -79,6 +83,16 @@ function onClear(slot_data)
         local blocksanity = Tracker:FindObjectForCode("blocksanity")
         blocksanity.Active = (slot_data['blocksanity'] ~= 0)
     end
+
+	if Archipelago.PlayerNumber>-1 then
+		EVENT_ID="smw_curlevelid_"..TEAM_NUMBER.."_"..PLAYER_ID
+        print(string.format("SET NOTIFY %s",EVENT_ID))
+		Archipelago:SetNotify({EVENT_ID})
+		Archipelago:Get({EVENT_ID})
+	end
+
+	--Default tab switching to on
+	Tracker:FindObjectForCode("tab_switch").Active = 1
 end
 
 function onItem(index, item_id, item_name, player_number)
@@ -132,7 +146,39 @@ function onLocation(location_id, location_name)
     end
 end
 
+function onNotify(key, value, old_value)
+	updateEvents(value)
+end
+
+function onNotifyLaunch(key, value)
+	updateEvents(value)
+end
+
+function updateEvents(value)
+	if value ~= nil then
+	    print(string.format("updateEvents %x",value))
+		local tabswitch = Tracker:FindObjectForCode("tab_switch")
+		Tracker:FindObjectForCode("cur_level_id").CurrentStage = value
+		if tabswitch.Active then
+			if TAB_MAPPING[value] then
+				CURRENT_ROOM = TAB_MAPPING[value]
+                for str in string.gmatch(CURRENT_ROOM, "([^/]+)") do
+				    print(string.format("Updating ID %x to Tab %s",value,str))
+                    Tracker:UiHint("ActivateTab", str)
+                end
+				print(string.format("Updating ID %x to Tab %s",value,CURRENT_ROOM))
+			else
+				--CURRENT_ROOM = TAB_MAPPING[0x00]
+				print(string.format("Failed to find ID %x",value))
+                --Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+			end
+		end
+	end
+end
+
 
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
+Archipelago:AddSetReplyHandler("notify handler", onNotify)
+Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)

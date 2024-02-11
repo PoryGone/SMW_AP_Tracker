@@ -12,7 +12,7 @@
         "type": "consumable",
         "img": "images/items/yoshi_egg.png",
         "codes": "yoshi_eggs",
-        "max_quantity": 80,
+        "max_quantity": 255,
         "overlay_font_size": 14
     },
     {

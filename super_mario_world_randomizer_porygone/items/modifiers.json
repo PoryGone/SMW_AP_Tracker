@@ -31,7 +31,7 @@
         "img": "images/items/yoshi_egg.png",
         "initial_quantity": 0,
         "min_quantity": 0,
-        "max_quantity": 80,
+        "max_quantity": 255,
         "increment": 1,
         "overlay_font_size": 14,
         "codes": "yoshi_eggs_required"
@@ -63,5 +63,19 @@
         "img": "images/items/block.png",
         "disabled_img": "images/items/block.png",
         "codes": "blocksanity"
+    },
+    {
+        "name": "Auto Tab Switching",
+        "type": "toggle",
+        "img": "images/items/message.png",
+        "disabled_img": "images/items/message.png",
+        "codes": "tab_switch"
+    },
+    {
+        "name": "Current Level",
+        "type": "progressive",
+        "img": "",
+        "disabled_img": "",
+        "codes": "cur_level_id"
     }
 ]

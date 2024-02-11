@@ -42,7 +42,8 @@
                         "moon_checks",
                         "hidden_1up_checks",
                         "bonus_block_checks",
-                        "blocksanity"
+                        "blocksanity",
+                        "tab_switch"
                     ]
                 ]
             }
