@@ -41,8 +41,8 @@
                         ],
                         "name": "Secret Exit",
                         "access_rules": [
-                            "powerup_3, run",
-                            "[powerup_3], yoshi"
+                            "run, powerup_3",
+                            "run, yoshi"
                         ],
                         "chest_unopened_img": "images/checks/goal_sphere_disabled.png",
                         "chest_opened_img": "images/checks/goal_sphere.png",
